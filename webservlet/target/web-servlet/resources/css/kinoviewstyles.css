@@ -1,0 +1,100 @@
+body {
+    background-color: #000000;
+    background-image: url("../thumbnails/background.png");
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+h4 {
+    /*color: white;*/
+    font-size: 140%;
+    margin-bottom: 15px;
+}
+
+h5 {
+    color: white;
+    font-size: 130%;
+
+}
+
+th {
+    color: white;
+    font-size: 130%;
+}
+
+.logo {
+    margin-top: 0px;
+
+}
+
+.leftbar {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 5px;
+    background-color: #444444;
+    color: white;
+    float: left;
+    border: 3px #CCCCCC solid;
+    border-radius: 10px;
+}
+
+.container {
+
+}
+
+.container-data {
+    margin-bottom: 50px;
+    background-color: #222222;
+    color: #BBBBBB;
+    border: 3px #CCCCCC solid;
+    border-radius: 10px;
+}
+
+.thumbnails-container {
+    width: 855px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+    margin-bottom: 20px;
+    padding-right: 2px;
+    padding-left: 2px;
+    background-color: #222222;
+    color: #BBBBBB;
+    border: 3px #CCCCCC solid;
+    border-radius: 10px;
+}
+
+.image-thumbnail {
+    height: 160px;
+    width: 117px;
+}
+
+.btn-secondary {
+    background-color: #444444;
+    color: white;
+    display: inline;
+}
+
+.user-panel {
+    margin-top: 20px;
+
+}
+
+.form {
+    margin-left: 0px;
+    margin-right: auto;
+    padding: 5px;
+    width: 470px;
+    background-color: #222222;
+    color: #BBBBBB;
+    border: 3px #CCCCCC solid;
+    border-radius: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 130%;
+}

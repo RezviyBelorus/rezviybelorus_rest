@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: kinoview.commonjdbc.dao.CountryDAOTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 1.451 sec

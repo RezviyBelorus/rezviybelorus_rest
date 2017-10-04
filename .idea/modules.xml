@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/commonjdbc/commonjdbc.iml" filepath="$PROJECT_DIR$/commonjdbc/commonjdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservlet/webservlet.iml" filepath="$PROJECT_DIR$/webservlet/webservlet.iml" />
+    </modules>
+  </component>
+</project>

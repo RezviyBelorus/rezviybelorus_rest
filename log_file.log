@@ -1,0 +1,287 @@
+2017-09-08 20:20:01 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2957fcb0: startup date [Fri Sep 08 20:20:01 MSK 2017]; root of context hierarchy
+2017-09-08 20:20:01 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [webservlet.xml]
+2017-09-08 20:20:01 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-08 20:20:02 ERROR JDBCFactory:37 - Connection to database failed.
+2017-09-08 20:20:02 ERROR JDBCFactory:37 - Connection to database failed.
+2017-09-08 20:20:02 ERROR JDBCFactory:37 - Connection to database failed.
+2017-09-08 20:20:02 ERROR JDBCFactory:37 - Connection to database failed.
+2017-09-08 20:20:02 WARN  AutowiredAnnotationBeanPostProcessor:440 - Autowired annotation is not supported on static fields: private static int kinoview.commonjdbc.service.TaskManager.THREAD_SEPARATOR
+2017-09-08 20:20:02 WARN  AutowiredAnnotationBeanPostProcessor:440 - Autowired annotation is not supported on static fields: private static java.lang.String kinoview.commonjdbc.service.TaskManager.startUpdateHour
+2017-09-08 20:20:02 WARN  AutowiredAnnotationBeanPostProcessor:440 - Autowired annotation is not supported on static fields: private static java.lang.String kinoview.commonjdbc.service.TaskManager.startUpdateMinute
+2017-09-08 20:20:02 WARN  AutowiredAnnotationBeanPostProcessor:440 - Autowired annotation is not supported on static fields: private static int kinoview.commonjdbc.service.KinogoPageParser.DEFAULT_FILM_STATUS
+2017-09-09 10:33:38 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2957fcb0: startup date [Sat Sep 09 10:33:38 MSK 2017]; root of context hierarchy
+2017-09-09 10:33:38 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [webservlet.xml]
+2017-09-09 10:33:39 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-09 10:33:39 ERROR JDBCFactory:37 - Connection to database failed.
+2017-09-09 10:33:39 ERROR JDBCFactory:37 - Connection to database failed.
+2017-09-09 10:33:40 ERROR JDBCFactory:37 - Connection to database failed.
+2017-09-09 10:33:40 ERROR JDBCFactory:37 - Connection to database failed.
+2017-09-09 10:33:40 WARN  AutowiredAnnotationBeanPostProcessor:440 - Autowired annotation is not supported on static fields: private static int kinoview.commonjdbc.service.TaskManager.THREAD_SEPARATOR
+2017-09-09 10:33:40 WARN  AutowiredAnnotationBeanPostProcessor:440 - Autowired annotation is not supported on static fields: private static java.lang.String kinoview.commonjdbc.service.TaskManager.startUpdateHour
+2017-09-09 10:33:40 WARN  AutowiredAnnotationBeanPostProcessor:440 - Autowired annotation is not supported on static fields: private static java.lang.String kinoview.commonjdbc.service.TaskManager.startUpdateMinute
+2017-09-09 10:33:40 WARN  AutowiredAnnotationBeanPostProcessor:440 - Autowired annotation is not supported on static fields: private static int kinoview.commonjdbc.service.KinogoPageParser.DEFAULT_FILM_STATUS
+2017-09-13 21:04:55 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@deb6432: startup date [Wed Sep 13 21:04:55 MSK 2017]; root of context hierarchy
+2017-09-13 21:04:55 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [webservlet.xml]
+2017-09-13 21:04:56 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-13 21:04:56 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcContentNegotiationManager': Failed to introspect bean class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean] for lookup method metadata: could not find class that it depends on; nested exception is java.lang.NoClassDefFoundError: javax/servlet/ServletContext
+2017-09-13 21:08:01 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@deb6432: startup date [Wed Sep 13 21:08:01 MSK 2017]; root of context hierarchy
+2017-09-13 21:08:01 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [webservlet.xml]
+2017-09-13 21:08:01 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-13 21:08:02 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcContentNegotiationManager': Failed to introspect bean class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean] for lookup method metadata: could not find class that it depends on; nested exception is java.lang.NoClassDefFoundError: javax/servlet/ServletContext
+2017-09-13 21:11:08 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@deb6432: startup date [Wed Sep 13 21:11:08 MSK 2017]; root of context hierarchy
+2017-09-13 21:11:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [webservlet.xml]
+2017-09-13 21:11:09 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-13 21:11:09 WARN  AutowiredAnnotationBeanPostProcessor:440 - Autowired annotation is not supported on static fields: private static int kinoview.commonjdbc.service.TaskManager.THREAD_SEPARATOR
+2017-09-13 21:11:09 WARN  AutowiredAnnotationBeanPostProcessor:440 - Autowired annotation is not supported on static fields: private static java.lang.String kinoview.commonjdbc.service.TaskManager.startUpdateHour
+2017-09-13 21:11:09 WARN  AutowiredAnnotationBeanPostProcessor:440 - Autowired annotation is not supported on static fields: private static java.lang.String kinoview.commonjdbc.service.TaskManager.startUpdateMinute
+2017-09-13 21:11:10 INFO  JDBCFactory:31 - connection to database created
+2017-09-13 21:11:10 INFO  JDBCFactory:31 - connection to database created
+2017-09-13 21:11:10 INFO  JDBCFactory:31 - connection to database created
+2017-09-13 21:11:10 INFO  JDBCFactory:31 - connection to database created
+2017-09-13 21:11:10 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Failed to introspect bean class [kinoview.webservlet.controller.UserController] for lookup method metadata: could not find class that it depends on; nested exception is java.lang.NoClassDefFoundError: javax/servlet/http/HttpServletRequest
+2017-09-13 21:24:54 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@deb6432: startup date [Wed Sep 13 21:24:54 MSK 2017]; root of context hierarchy
+2017-09-13 21:24:54 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [webservlet.xml]
+2017-09-13 21:24:54 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-13 21:24:55 INFO  JDBCFactory:31 - connection to database created
+2017-09-13 21:24:55 INFO  JDBCFactory:31 - connection to database created
+2017-09-13 21:24:55 INFO  JDBCFactory:31 - connection to database created
+2017-09-13 21:24:55 INFO  JDBCFactory:31 - connection to database created
+2017-09-13 21:24:55 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Failed to introspect bean class [kinoview.webservlet.controller.UserController] for lookup method metadata: could not find class that it depends on; nested exception is java.lang.NoClassDefFoundError: javax/servlet/http/HttpServletRequest
+2017-09-13 21:25:49 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@deb6432: startup date [Wed Sep 13 21:25:49 MSK 2017]; root of context hierarchy
+2017-09-13 21:25:49 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [webservlet.xml]
+2017-09-13 21:25:49 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-13 21:25:50 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcContentNegotiationManager': Failed to introspect bean class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean] for lookup method metadata: could not find class that it depends on; nested exception is java.lang.NoClassDefFoundError: javax/servlet/ServletContext
+2017-09-15 20:44:51 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@deb6432: startup date [Fri Sep 15 20:44:51 MSK 2017]; root of context hierarchy
+2017-09-15 20:44:51 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [webservlet.xml]
+2017-09-15 20:44:52 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-15 20:44:52 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcResourceUrlProvider': Failed to introspect bean class [org.springframework.web.servlet.resource.ResourceUrlProvider] for lookup method metadata: could not find class that it depends on; nested exception is java.lang.NoClassDefFoundError: javax/servlet/http/HttpServletRequest
+2017-09-15 20:47:10 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@20fa23c1: startup date [Fri Sep 15 20:47:10 MSK 2017]; root of context hierarchy
+2017-09-15 20:47:10 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-15 20:47:12 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 20:47:12 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 20:47:12 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 20:47:12 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 20:59:07 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@20fa23c1: startup date [Fri Sep 15 20:59:07 MSK 2017]; root of context hierarchy
+2017-09-15 20:59:07 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-15 20:59:08 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 20:59:08 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 20:59:08 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 20:59:08 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:03:41 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@20fa23c1: startup date [Fri Sep 15 22:03:41 MSK 2017]; root of context hierarchy
+2017-09-15 22:03:41 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-15 22:03:42 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:03:42 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:03:42 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:03:42 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:04:41 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@20fa23c1: startup date [Fri Sep 15 22:04:41 MSK 2017]; root of context hierarchy
+2017-09-15 22:04:41 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-15 22:04:42 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:04:42 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:04:42 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:04:42 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:04:45 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/1024
+2017-09-15 22:05:06 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/575
+2017-09-15 22:05:11 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 222
+2017-09-15 22:05:43 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 360
+2017-09-15 22:05:49 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 193
+2017-09-15 22:05:54 ERROR FilmDAO:108 - Can't save batch of films
+2017-09-15 22:13:13 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@20fa23c1: startup date [Fri Sep 15 22:13:13 MSK 2017]; root of context hierarchy
+2017-09-15 22:13:14 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-15 22:13:15 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:13:15 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:13:15 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:13:15 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:13:17 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/1024
+2017-09-15 22:13:31 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/575
+2017-09-15 22:13:33 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 7
+2017-09-15 22:13:36 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 222
+2017-09-15 22:14:07 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 342
+2017-09-15 22:14:11 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 360
+2017-09-15 22:14:17 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 193
+2017-09-15 22:14:18 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 385
+2017-09-15 22:14:18 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 197
+2017-09-15 22:14:21 ERROR FilmDAO:107 - Can't save batch of films
+2017-09-15 22:21:39 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@20fa23c1: startup date [Fri Sep 15 22:21:39 MSK 2017]; root of context hierarchy
+2017-09-15 22:21:39 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-15 22:21:40 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:21:40 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:21:40 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:21:40 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:21:43 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/1024
+2017-09-15 22:22:01 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/575
+2017-09-15 22:22:06 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 222
+2017-09-15 22:22:18 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 83
+2017-09-15 22:22:35 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 360
+2017-09-15 22:22:42 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 193
+2017-09-15 22:22:47 ERROR FilmDAO:107 - Can't save batch of films
+2017-09-15 22:24:25 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@f6c48ac: startup date [Fri Sep 15 22:24:25 MSK 2017]; root of context hierarchy
+2017-09-15 22:24:25 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-15 22:24:28 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:24:28 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:24:28 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:24:28 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:24:31 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/1024
+2017-09-15 22:24:46 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/575
+2017-09-15 22:24:48 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 207
+2017-09-15 22:24:48 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 11
+2017-09-15 22:24:51 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 222
+2017-09-15 22:25:07 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 292
+2017-09-15 22:25:13 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 316
+2017-09-15 22:25:24 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 360
+2017-09-15 22:25:26 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 368
+2017-09-15 22:25:26 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 178
+2017-09-15 22:25:26 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 369
+2017-09-15 22:25:30 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 193
+2017-09-15 22:31:15 ERROR FilmDAO:107 - Can't save batch of films
+2017-09-15 22:36:42 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@20fa23c1: startup date [Fri Sep 15 22:36:42 MSK 2017]; root of context hierarchy
+2017-09-15 22:36:42 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-15 22:36:44 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:36:44 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:36:44 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:36:44 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:36:47 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/1024
+2017-09-15 22:37:01 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/575
+2017-09-15 22:37:06 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 222
+2017-09-15 22:37:07 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 28
+2017-09-15 22:37:19 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 90
+2017-09-15 22:37:19 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 285
+2017-09-15 22:37:30 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 145
+2017-09-15 22:37:35 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 360
+2017-09-15 22:37:40 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 193
+2017-09-15 22:37:45 ERROR FilmDAO:107 - Can't save batch of films
+2017-09-15 22:49:54 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@f6c48ac: startup date [Fri Sep 15 22:49:54 MSK 2017]; root of context hierarchy
+2017-09-15 22:49:54 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-15 22:49:55 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:49:55 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:49:55 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:49:55 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:49:58 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/1024
+2017-09-15 22:50:13 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/575
+2017-09-15 22:50:15 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 10
+2017-09-15 22:50:17 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 222
+2017-09-15 22:50:29 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 82
+2017-09-15 22:50:37 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 118
+2017-09-15 22:50:37 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 303
+2017-09-15 22:50:40 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 308
+2017-09-15 22:50:42 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 314
+2017-09-15 22:50:49 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 144
+2017-09-15 22:50:49 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 327
+2017-09-15 22:51:09 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 360
+2017-09-15 22:51:26 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 193
+2017-09-15 22:53:49 ERROR FilmDAO:107 - Can't save batch of films
+2017-09-15 22:53:57 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@f6c48ac: startup date [Fri Sep 15 22:53:57 MSK 2017]; root of context hierarchy
+2017-09-15 22:53:57 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-15 22:53:58 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:53:58 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:53:58 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:53:58 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 22:54:11 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/1024
+2017-09-15 22:55:16 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/575
+2017-09-15 22:55:29 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 216
+2017-09-15 22:55:33 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 222
+2017-09-15 22:57:03 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 132
+2017-09-15 22:57:16 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 353
+2017-09-15 22:57:21 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 360
+2017-09-15 22:57:25 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 162
+2017-09-15 22:57:28 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 166
+2017-09-15 22:57:38 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 388
+2017-09-15 22:57:38 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 193
+2017-09-15 23:04:04 ERROR FilmDAO:107 - Can't save batch of films
+2017-09-15 23:04:12 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@f6c48ac: startup date [Fri Sep 15 23:04:12 MSK 2017]; root of context hierarchy
+2017-09-15 23:04:12 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-15 23:04:13 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 23:04:13 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 23:04:13 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 23:04:13 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 23:04:33 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/1024
+2017-09-15 23:05:36 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/575
+2017-09-15 23:05:41 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 202
+2017-09-15 23:05:57 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 222
+2017-09-15 23:06:09 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 243
+2017-09-15 23:06:14 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 60
+2017-09-15 23:07:19 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 347
+2017-09-15 23:07:25 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 360
+2017-09-15 23:07:37 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 175
+2017-09-15 23:08:00 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 193
+2017-09-15 23:15:54 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@20fa23c1: startup date [Fri Sep 15 23:15:54 MSK 2017]; root of context hierarchy
+2017-09-15 23:15:55 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-15 23:15:55 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 23:15:55 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 23:15:55 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 23:15:56 INFO  JDBCFactory:31 - connection to database created
+2017-09-15 23:16:06 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/1024
+2017-09-19 10:11:11 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@593634ad: startup date [Tue Sep 19 10:11:11 MSK 2017]; root of context hierarchy
+2017-09-19 10:11:11 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [webservlet.xml]
+2017-09-19 10:11:11 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-19 10:11:12 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:11:12 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:11:12 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:11:12 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:11:12 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminService': Unsatisfied dependency expressed through field 'taskManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcContentNegotiationManager': Failed to introspect bean class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean] for lookup method metadata: could not find class that it depends on; nested exception is java.lang.NoClassDefFoundError: javax/servlet/ServletContext
+2017-09-19 10:11:40 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5442a311: startup date [Tue Sep 19 10:11:40 MSK 2017]; root of context hierarchy
+2017-09-19 10:11:40 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [webservlet.xml]
+2017-09-19 10:11:41 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-19 10:11:44 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:11:44 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:11:44 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:11:44 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:11:44 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminService': Unsatisfied dependency expressed through field 'taskManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcContentNegotiationManager': Failed to introspect bean class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean] for lookup method metadata: could not find class that it depends on; nested exception is java.lang.NoClassDefFoundError: javax/servlet/ServletContext
+2017-09-19 10:13:30 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5442a311: startup date [Tue Sep 19 10:13:30 MSK 2017]; root of context hierarchy
+2017-09-19 10:13:30 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [webservlet.xml]
+2017-09-19 10:13:30 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-19 10:13:31 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:13:31 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:13:31 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:13:31 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:13:31 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminService': Unsatisfied dependency expressed through field 'taskManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcContentNegotiationManager': Failed to introspect bean class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean] for lookup method metadata: could not find class that it depends on; nested exception is java.lang.NoClassDefFoundError: javax/servlet/ServletContext
+2017-09-19 10:14:08 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@593634ad: startup date [Tue Sep 19 10:14:08 MSK 2017]; root of context hierarchy
+2017-09-19 10:14:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [webservlet.xml]
+2017-09-19 10:14:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-19 10:14:09 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:14:09 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:14:09 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:14:09 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:14:09 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminService': Unsatisfied dependency expressed through field 'taskManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcContentNegotiationManager': Failed to introspect bean class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean] for lookup method metadata: could not find class that it depends on; nested exception is java.lang.NoClassDefFoundError: javax/servlet/ServletContext
+2017-09-19 10:47:23 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@593634ad: startup date [Tue Sep 19 10:47:23 MSK 2017]; root of context hierarchy
+2017-09-19 10:47:23 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [webservlet.xml]
+2017-09-19 10:47:23 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-19 10:47:24 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:47:24 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:47:24 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:47:24 INFO  JDBCFactory:31 - connection to database created
+2017-09-19 10:47:24 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminService': Unsatisfied dependency expressed through field 'taskManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcContentNegotiationManager': Failed to introspect bean class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean] for lookup method metadata: could not find class that it depends on; nested exception is java.lang.NoClassDefFoundError: javax/servlet/ServletContext
+2017-09-20 13:05:48 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64a294a6: startup date [Wed Sep 20 13:05:48 MSK 2017]; root of context hierarchy
+2017-09-20 13:05:48 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [commond-jdbc.xml]
+2017-09-20 13:06:16 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64a294a6: startup date [Wed Sep 20 13:06:16 MSK 2017]; root of context hierarchy
+2017-09-20 13:06:16 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-20 13:06:17 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'filmDAO': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdbcTemplate' defined in class path resource [common-jdbc.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [common-jdbc.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'driverClassName' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.hsqldb.jdbcjdbcDriver]
+2017-09-20 13:07:31 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64a294a6: startup date [Wed Sep 20 13:07:31 MSK 2017]; root of context hierarchy
+2017-09-20 13:07:31 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-20 13:07:31 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.hsqldb.jdbcDriver
+2017-09-20 13:11:08 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64a294a6: startup date [Wed Sep 20 13:11:08 MSK 2017]; root of context hierarchy
+2017-09-20 13:11:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-20 13:11:09 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.hsqldb.jdbcDriver
+2017-09-20 13:22:03 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64a294a6: startup date [Wed Sep 20 13:22:03 MSK 2017]; root of context hierarchy
+2017-09-20 13:22:03 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-20 13:22:04 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.hsqldb.jdbcDriver
+2017-09-20 13:22:13 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64a294a6: startup date [Wed Sep 20 13:22:13 MSK 2017]; root of context hierarchy
+2017-09-20 13:22:13 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-20 13:22:14 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.hsqldb.jdbcDriver
+2017-09-21 12:27:35 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64a294a6: startup date [Thu Sep 21 12:27:35 MSK 2017]; root of context hierarchy
+2017-09-21 12:27:35 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-21 12:27:36 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.hsqldb.jdbcDriver
+2017-09-21 12:27:39 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/1024
+2017-09-21 12:27:54 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/576
+2017-09-21 12:27:59 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 223
+2017-09-21 12:28:28 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 361
+2017-09-21 12:28:34 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 194
+2017-09-21 12:31:20 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@598067a5: startup date [Thu Sep 21 12:31:20 MSK 2017]; root of context hierarchy
+2017-09-21 12:31:20 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [common-jdbc.xml]
+2017-09-21 12:31:21 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.hsqldb.jdbcDriver
+2017-09-21 12:31:24 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/1024
+2017-09-21 12:31:39 INFO  SiteConnector:27 - Page not found: http://kinogo.club/page/576
+2017-09-21 12:31:44 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 223
+2017-09-21 12:31:45 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 29
+2017-09-21 12:32:13 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 361
+2017-09-21 12:32:18 ERROR KinogoPageParser:51 - KinogoParser: can't parse the page: 194

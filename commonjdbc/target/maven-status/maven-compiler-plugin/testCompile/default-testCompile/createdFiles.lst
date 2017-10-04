@@ -1,0 +1,11 @@
+kinoview/commonjdbc/util/LocalPropertiesTest.class
+kinoview/commonjdbc/dao/FilmDAOTest.class
+kinoview/commonjdbc/service/TaskManagerTest.class
+kinoview/commonjdbc/dao/UserDAOTest.class
+kinoview/commonjdbc/service/FilmServiceTest.class
+kinoview/commonjdbc/service/CountryServiceTest.class
+kinoview/commonjdbc/service/UserServiceTest.class
+kinoview/commonjdbc/service/GenreServiceTest.class
+kinoview/commonjdbc/util/JDBCFactoryTest.class
+kinoview/commonjdbc/dao/CountryDAOTest.class
+kinoview/commonjdbc/dao/GenreDAOTest.class
