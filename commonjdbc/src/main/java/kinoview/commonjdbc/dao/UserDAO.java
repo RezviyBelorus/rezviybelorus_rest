@@ -2,6 +2,8 @@ package kinoview.commonjdbc.dao;
 
 import kinoview.commonjdbc.entity.User;
 import org.apache.log4j.Logger;
+import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -22,6 +24,9 @@ public class UserDAO extends AbstractDAO {
     @Autowired
     private JdbcTemplate template;
 
+    @Autowired
+    SessionFactory sessionFactory;
+
     private String SAVE_USER_QUERY = "INSERT INTO users (login, password, f_name, l_name, email, status, create_date)" +
             " VALUES (?,?,?,?,?,?,?)";
 
@@ -37,18 +42,21 @@ public class UserDAO extends AbstractDAO {
     private String UPDATE_STATUS_BY_EMAIL_OR_LOGIN_QUERY = "UPDATE users SET status = ? WHERE email = ? OR login = ?";
 
     public boolean save(User user) {
-        template.update(SAVE_USER_QUERY, user.getLogin(), user.getPassword(), user.getfName(),
-                user.getlName(), user.getEmail(), user.getStatus(), Timestamp.valueOf(user.getCreateDate()));
+        sessionFactory.getCurrentSession().save(user);
         return true;
     }
 
     public boolean delete(int id) {
-        template.update(DELETE_BY_ID_QUERY, id);
+        User user = sessionFactory.getCurrentSession().get(User.class, id);
+        sessionFactory.getCurrentSession().delete(user);
         return true;
     }
 
     public boolean delete(String email) {
-        template.update(DELETE_BY_EMAIL_QUERY, email);
+        Query query = sessionFactory.getCurrentSession().createQuery("from User where email=:email");
+        query.setParameter("email", email);
+        User user = (User) query.uniqueResult();
+        sessionFactory.getCurrentSession().delete(user);
         return true;
     }
 

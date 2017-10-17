@@ -1,35 +1,69 @@
 package kinoview.commonjdbc.entity;
 
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 
 /**
  * Created by alexfomin on 01.07.17.
  */
-
+@Entity
+@Table(name = "films")
 public class Film {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "film_id")
     private int id;
+
+    @Column(name = "film_name")
     private String name;
+
+    @Column(name = "release_year")
     private int releaseYear;
 
+    @Column(name = "quality")
     private String quality;
+
+    @Column(name = "translation")
     private String translation;
+
+    @Column(name = "length")
     private String duration;
+
+    @Column(name = "rating")
     private float rating;
+
+    @Column(name = "upload_date")
     private LocalDateTime uploadDate;
+
+    @Column(name = "status")
     private int status;
+
+    @Column(name = "img_link")
     private String imgLink;
+
+    @Column(name = "watch_link")
     private String watchLink;
+
+    @Column(name = "short_story")
     private String shortStory;
+
+    @Column(name = "kinogo_page")
     private int kinogoPage;
 
-    private List<String> countries = new ArrayList<>();
-    private List<String> genres = new ArrayList<>();
+    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinTable(name = "films_to_countries",
+            joinColumns = @JoinColumn(name = "film_id"), inverseJoinColumns = @JoinColumn(name = "country_id"))
+    private Set<Country> countries = new HashSet<>();
 
-    private List<Integer> countrieId = new ArrayList<>();
-    private List<Integer> genreId = new ArrayList<>();
+    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinTable(name = "films_to_genres",
+            joinColumns = @JoinColumn(name = "film_id"), inverseJoinColumns = @JoinColumn(name = "genre_id"))
+    private Set<Genre> genres = new HashSet<>();
 
     public int getKinogoPage() {
         return kinogoPage;
@@ -135,36 +169,20 @@ public class Film {
         this.status = status;
     }
 
-    public List<String> getCountries() {
+    public Set<Country> getCountries() {
         return countries;
     }
 
-    public void setCountries(List<String> countries) {
+    public void setCountries(Set<Country> countries) {
         this.countries = countries;
     }
 
-    public List<String> getGenres() {
+    public Set<Genre> getGenres() {
         return genres;
     }
 
-    public void setGenres(List<String> genres) {
+    public void setGenres(Set<Genre> genres) {
         this.genres = genres;
-    }
-
-    public List<Integer> getCountrieId() {
-        return countrieId;
-    }
-
-    public void setCountrieId(List<Integer> countrieId) {
-        this.countrieId = countrieId;
-    }
-
-    public List<Integer> getGenreId() {
-        return genreId;
-    }
-
-    public void setGenreId(List<Integer> genreId) {
-        this.genreId = genreId;
     }
 
     @Override

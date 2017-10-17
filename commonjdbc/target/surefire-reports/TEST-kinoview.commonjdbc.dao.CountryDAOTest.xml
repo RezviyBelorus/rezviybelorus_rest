@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="kinoview.commonjdbc.dao.CountryDAOTest" time="0.43" errors="0" skipped="3">
+<testsuite tests="7" failures="0" name="kinoview.commonjdbc.dao.CountryDAOTest" time="0.277" errors="0" skipped="2">
   <properties>
     <property name="idea.version" value="2017.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -8,7 +8,7 @@
     <property name="user.country.format" value="BY"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/alexfomin/IdeaProjects/rezviybelorus/commonjdbc"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/alexfomin/IdeaProjects/rezviybelorus_rest/commonjdbc"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/alexfomin/IdeaProjects/rezviybelorus/commonjdbc"/>
+    <property name="user.dir" value="/Users/alexfomin/IdeaProjects/rezviybelorus_rest/commonjdbc"/>
     <property name="java.runtime.version" value="1.8.0_91-b14"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -64,18 +64,15 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldFindByName" time="0.288"/>
-  <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldFindById" time="0.018"/>
+  <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldFindByName" time="0.12"/>
+  <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldFindById" time="0.008"/>
   <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldFindAllCountries" time="0.032"/>
-  <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldSave" time="0.019"/>
-  <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldDeleteById" time="0.02">
+  <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldSave" time="0.036"/>
+  <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldDeleteById" time="0.036">
     <skipped message="primary key"/>
   </testcase>
-  <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldDeleteByName" time="0.02">
-    <skipped message="primary key"/>
+  <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldDeleteByName" time="0.036">
+    <skipped message="foreign key"/>
   </testcase>
-  <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldSaveFilmToCountries" time="0.02">
-    <skipped/>
-  </testcase>
-  <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldFindAllByFilm" time="0.013"/>
+  <testcase classname="kinoview.commonjdbc.dao.CountryDAOTest" name="shouldFindAllByFilm" time="0.009"/>
 </testsuite>

@@ -2,6 +2,7 @@ package kinoview.commonjdbc.dao;
 
 import kinoview.commonjdbc.entity.User;
 import org.junit.*;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.annotation.Commit;
@@ -11,9 +12,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.transaction.TransactionConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.persistence.Column;
 import java.time.LocalDateTime;
 
-import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -24,14 +25,16 @@ import static org.junit.Assert.assertTrue;
 @Transactional
 @Rollback
 public class UserDAOTest {
+
     @Autowired
     private UserDAO dao;
 
     @Test
+    @Commit
     public void shouldSaveUser() throws Exception {
        User user = new User();
 
-        user.setLogin("tester4");
+        user.setLogin("tester77");
         user.setPassword("testPass");
         user.setfName("alex");
         user.setlName("kurik");
@@ -75,4 +78,6 @@ public class UserDAOTest {
         boolean result = dao.setStatus("test", 2);
         assertTrue(result);
     }
+
+
 }

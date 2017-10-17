@@ -3,6 +3,7 @@ package kinoview.commonjdbc.dao;
 import kinoview.commonjdbc.entity.Country;
 import kinoview.commonjdbc.exception.IllegalRequestException;
 import org.apache.log4j.Logger;
+import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -14,7 +15,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by alexfomin on 06.07.17.
@@ -25,6 +28,9 @@ public class CountryDAO extends AbstractDAO {
 
     @Autowired
     private JdbcTemplate template;
+
+    @Autowired
+    SessionFactory sessionFactory;
 
     private String SAVE_COUNTRY_QUERY = "INSERT INTO countries (country_name) VALUES (?)";
 
@@ -44,35 +50,22 @@ public class CountryDAO extends AbstractDAO {
     private String SELECT_ALL_COUNTRIES_QUERY = "SELECT country_id, country_name FROM countries";
 
     public boolean save(Country country) {
-
-        template.update(SAVE_COUNTRY_QUERY, country.getCountryName());
+        sessionFactory.getCurrentSession().saveOrUpdate(country);
         return true;
     }
 
-    public boolean saveFilmToCountries(int filmId, List<Integer> countriesId) {
-        template.batchUpdate(INSERT_FILM_TO_COUNTRIES_QUERY, new BatchPreparedStatementSetter() {
-            @Override
-            public void setValues(PreparedStatement ps, int i) throws SQLException {
-                int countryId = countriesId.get(i);
-                ps.setInt(1, filmId);
-                ps.setInt(2, countryId);
-            }
+//    public boolean delete(int id) {
+//        template.update(DELETE_COUNTRY_BY_ID_QUERY, id);
+//        return true;
+//    }
+//
+//    public boolean delete(String countryName) {
+//        template.update(DELETE_COUNTRY_BY_NAME_QUERY, countryName);
+//        return true;
+//    }
 
-            @Override
-            public int getBatchSize() {
-                return countriesId.size();
-            }
-        });
-        return true;
-    }
-
-    public boolean delete(int id) {
-        template.update(DELETE_COUNTRY_BY_ID_QUERY, id);
-        return true;
-    }
-
-    public boolean delete(String countryName) {
-        template.update(DELETE_COUNTRY_BY_NAME_QUERY, countryName);
+    public boolean delete(Country country) {
+        sessionFactory.getCurrentSession().delete(country);
         return true;
     }
 
@@ -100,9 +93,9 @@ public class CountryDAO extends AbstractDAO {
         }, countryName);
     }
 
-    public List<Country> findAllCountries() {
+    public Set<Country> findAllCountries() {
         SqlRowSet rs = template.queryForRowSet(SELECT_ALL_COUNTRIES_QUERY);
-        List<Country> countries = new ArrayList<>();
+        Set<Country> countries = new HashSet<>();
         while (rs.next()) {
             Country country = new Country();
             country.setCountryId(rs.getInt(1));
@@ -112,9 +105,9 @@ public class CountryDAO extends AbstractDAO {
         return countries;
     }
 
-    public List<String> findAllByFilm(int filmId) {
+    public Set<String> findAllByFilm(int filmId) {
         SqlRowSet rs = template.queryForRowSet(SELECT_ALL_COUNTRIES_BY_FILM_QUERY, filmId);
-        List<String> countriesNames = new ArrayList<>();
+        Set<String> countriesNames = new HashSet<>();
         while (rs.next()) {
             countriesNames.add(rs.getString(1));
         }

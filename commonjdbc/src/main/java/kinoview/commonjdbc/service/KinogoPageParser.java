@@ -1,13 +1,14 @@
 package kinoview.commonjdbc.service;
 
+import kinoview.commonjdbc.entity.Country;
 import kinoview.commonjdbc.entity.Film;
+import kinoview.commonjdbc.entity.Genre;
 import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import kinoview.commonjdbc.util.LocalProperties;
 import kinoview.commonjdbc.util.Validator;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -162,7 +163,7 @@ public class KinogoPageParser {
         return year;
     }
 
-    private static List<String> getCountries(String filmDescription) {
+    private static Set<Country> getCountries(String filmDescription) {
         pattern = Pattern.compile(COUNTRY);
         matcher = pattern.matcher(filmDescription);
         int begin = 0;
@@ -181,10 +182,16 @@ public class KinogoPageParser {
 
         String countries = filmDescription.substring(begin, end);
         String[] byCountry = countries.split(", ");
-        return Arrays.asList(byCountry);
+        Set<Country> countryList = new HashSet<>();
+        for (String s : byCountry) {
+            Country country = new Country();
+            country.setCountryName(s);
+            countryList.add(country);
+        }
+        return countryList;
     }
 
-    private static List<String> getGenries(String filmDescription) {
+    private static Set<Genre> getGenries(String filmDescription) {
         pattern = Pattern.compile(GENRE);
         matcher = pattern.matcher(filmDescription);
         int begin = 0;
@@ -204,7 +211,14 @@ public class KinogoPageParser {
         String genries = filmDescription.substring(begin, end);
         String[] byGenre = genries.split(", ");
 
-        return Arrays.asList(byGenre);
+        Set<Genre> genreList = new HashSet<>();
+        for (String g : byGenre) {
+            Genre genre = new Genre();
+            genre.setGenreName(g.toLowerCase());
+            genreList.add(genre);
+        }
+
+        return genreList;
     }
 
     private static String getQuality(String filmDescription) {

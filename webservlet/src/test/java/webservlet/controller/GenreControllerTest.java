@@ -1,6 +1,7 @@
 package webservlet.controller;
 
 import kinoview.commonjdbc.entity.Genre;
+import kinoview.commonjdbc.entity.dto.GenreDTO;
 import kinoview.webservlet.controller.GenreController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -31,7 +32,8 @@ public class GenreControllerTest {
     public void shouldAddGenre() throws Exception {
         //given
         Genre genre = new Genre();
-        Mockito.when(genreService.addGenre("genreName")).thenReturn(genre);
+        GenreDTO genreDTO = new GenreDTO(genre);
+        Mockito.when(genreService.addGenre("genreName")).thenReturn(genreDTO);
 
         //when
         ModelAndView actual = genreController.add("genreName");
@@ -56,8 +58,9 @@ public class GenreControllerTest {
     public void shouldFindGenre() throws Exception {
         //given
         Genre genre = new Genre();
+        GenreDTO genreDTO = new GenreDTO(genre);
 
-        Mockito.when(genreService.find("genreName")).thenReturn(genre);
+        Mockito.when(genreService.find("genreName")).thenReturn(genreDTO);
 
         //when
         ModelAndView actual = genreController.find("genreName");

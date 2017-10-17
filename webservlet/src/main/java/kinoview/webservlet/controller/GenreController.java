@@ -1,6 +1,7 @@
 package kinoview.webservlet.controller;
 
 import kinoview.commonjdbc.entity.Genre;
+import kinoview.commonjdbc.entity.dto.GenreDTO;
 import kinoview.commonjdbc.service.GenreService;
 import kinoview.webservlet.web.View;
 
@@ -23,8 +24,8 @@ public class GenreController {
     @RequestMapping(method = POST, path = "/add")
     public ModelAndView add(String genreName) {
         ModelAndView view = new ModelAndView(View.GENRE.getName());
-        Genre genre = genreService.addGenre(genreName);
-        view.addObject("genre", genre);
+        GenreDTO genreDTO = genreService.addGenre(genreName);
+        view.addObject("genre", genreDTO);
 
         return view;
     }
@@ -41,8 +42,8 @@ public class GenreController {
     @RequestMapping(method = GET, path = "/find")
     public ModelAndView find(String genreName) {
         ModelAndView view = new ModelAndView(View.GENRE.getName());
-        Genre genre = genreService.find(genreName);
-        view.addObject("genre", genre);
+        GenreDTO genreDTO = genreService.find(genreName);
+        view.addObject("genre", genreDTO);
 
         return view;
     }

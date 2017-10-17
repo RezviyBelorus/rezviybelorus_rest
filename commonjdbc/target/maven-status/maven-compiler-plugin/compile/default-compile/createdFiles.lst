@@ -1,7 +1,5 @@
-kinoview/commonjdbc/dao/GenreDAO$3.class
 kinoview/commonjdbc/util/LocalProperties.class
 kinoview/commonjdbc/entity/Genre.class
-kinoview/commonjdbc/dao/CountryDAO$3.class
 kinoview/commonjdbc/util/JDBCFactory.class
 kinoview/commonjdbc/entity/Film.class
 kinoview/commonjdbc/service/TaskManagerService.class
@@ -12,11 +10,9 @@ kinoview/commonjdbc/exception/IllegalRequestException.class
 kinoview/commonjdbc/dao/CountryDAO$1.class
 kinoview/commonjdbc/service/UserStatus.class
 kinoview/commonjdbc/exception/ParserException.class
-kinoview/commonjdbc/dao/FilmDAO$2.class
 kinoview/commonjdbc/entity/dto/UserDTO.class
 kinoview/commonjdbc/service/TestMain.class
 kinoview/commonjdbc/dao/CountryDAO.class
-kinoview/commonjdbc/dao/FilmDAO$1.class
 kinoview/commonjdbc/service/UserService.class
 kinoview/commonjdbc/dao/AbstractDAO.class
 kinoview/commonjdbc/dao/UserDAO.class
@@ -24,14 +20,14 @@ kinoview/commonjdbc/service/Task.class
 kinoview/commonjdbc/dao/GenreDAO.class
 kinoview/commonjdbc/util/Validator.class
 kinoview/commonjdbc/entity/Country.class
-kinoview/commonjdbc/dao/FilmDAO$4.class
+kinoview/commonjdbc/entity/dto/CountryDTO.class
 kinoview/commonjdbc/service/TaskManager.class
 kinoview/commonjdbc/service/MainService.class
 kinoview/commonjdbc/dao/GenreDAO$1.class
 kinoview/commonjdbc/entity/dto/FilmDTO.class
+kinoview/commonjdbc/entity/dto/GenreDTO.class
 kinoview/commonjdbc/dao/UserDAO$1.class
 kinoview/commonjdbc/util/SiteConnector.class
-kinoview/commonjdbc/dao/FilmDAO$3.class
 kinoview/commonjdbc/dao/CountryDAO$2.class
 kinoview/commonjdbc/entity/User.class
 kinoview/commonjdbc/service/KinogoPageParser.class

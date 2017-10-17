@@ -4,7 +4,9 @@ import kinoview.commonjdbc.dao.CountryDAO;
 import kinoview.commonjdbc.dao.FilmDAO;
 import kinoview.commonjdbc.dao.GenreDAO;
 import kinoview.commonjdbc.dao.UserDAO;
+import kinoview.commonjdbc.entity.Country;
 import kinoview.commonjdbc.entity.Film;
+import kinoview.commonjdbc.entity.Genre;
 import kinoview.commonjdbc.entity.User;
 import kinoview.commonjdbc.entity.dto.FilmDTO;
 import org.junit.Assert;
@@ -17,7 +19,9 @@ import org.mockito.runners.MockitoJUnitRunner;
 
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by alexfomin on 07.07.17.
@@ -25,6 +29,7 @@ import java.util.List;
 
 @RunWith(MockitoJUnitRunner.class)
 public class FilmServiceTest {
+
 
     @Mock
     FilmDAO filmDAO;
@@ -51,7 +56,7 @@ public class FilmServiceTest {
         //when
         FilmDTO actual = filmService.save("testFilm", "2017", "HD", "RU",
                 "01:34:13", "3.5", "1,2,3", "1,2,3", "shortStory",
-                456,"Comedy, Drama", "countries");
+                456, "genres", "countries");
 
         //then
         Assert.assertEquals(film.getName(), actual.getName());
@@ -64,7 +69,7 @@ public class FilmServiceTest {
         film.setName("testFilm");
         film.setStatus(3);
 
-        Mockito.when(filmDAO.setStatus("testFilm",3)).thenReturn(true);
+        Mockito.when(filmDAO.setStatus("testFilm", 3)).thenReturn(true);
         Mockito.when(filmDAO.find("testFilm")).thenReturn(film);
 
         //when
@@ -82,10 +87,10 @@ public class FilmServiceTest {
         film.setName("testFilm");
         film.setStatus(1);
 
-        ArrayList<String> genres = new ArrayList<>();
+        Set<String> genres = new HashSet<>();
         genres.add("comedy");
 
-        ArrayList<String> countries = new ArrayList<>();
+        Set<String> countries = new HashSet<>();
         countries.add("USA");
 
         Mockito.when(filmDAO.find("testFilm")).thenReturn(film);
@@ -99,35 +104,35 @@ public class FilmServiceTest {
         Assert.assertEquals(film.getName(), actual.getName());
     }
 
-    @Test
-    public void shouldFindGenres() throws Exception {
-        //given
-        ArrayList<String> genres = new ArrayList<>();
-        genres.add("comedy");
+//    @Test
+//    public void shouldFindGenres() throws Exception {
+//        //given
+//        ArrayList<String> genres = new ArrayList<>();
+//        genres.add("comedy");
+//
+//        Mockito.when(genreDAO.findAllByFilm(33)).thenReturn(genres);
+//
+//        //when
+//        Set<String> actual = filmService.findGenres(33);
+//
+//        //then
+//        Assert.assertEquals(genres.get(0), actual.c);
+//    }
 
-        Mockito.when(genreDAO.findAllByFilm(33)).thenReturn(genres);
-
-        //when
-        List<String> actual = filmService.findGenres(33);
-
-        //then
-        Assert.assertEquals(genres.get(0), actual.get(0));
-    }
-
-    @Test
-    public void shouldFindCountries() throws Exception {
-        //given
-        ArrayList<String> countries = new ArrayList<>();
-        countries.add("USA");
-
-        Mockito.when(countryDAO.findAllByFilm(33)).thenReturn(countries);
-
-        //when
-        List<String> actual = filmService.findCountries(33);
-
-        //then
-        Assert.assertEquals(countries.get(0), actual.get(0));
-    }
+//    @Test
+//    public void shouldFindCountries() throws Exception {
+//        //given
+//        ArrayList<String> countries = new ArrayList<>();
+//        countries.add("USA");
+//
+//        Mockito.when(countryDAO.findAllByFilm(33)).thenReturn(countries);
+//
+//        //when
+//        Set<String> actual = filmService.findCountries(33);
+//
+//        //then
+//        Assert.assertEquals(countries.get(0), actual.get(0));
+//    }
 
     @Test
     public void shouldSetStatus() throws Exception {
@@ -157,7 +162,7 @@ public class FilmServiceTest {
 
         Mockito.when(userDAO.find("user")).thenReturn(user);
         Mockito.when(filmDAO.find("film")).thenReturn(film);
-        Mockito.when(filmDAO.addFilmToFavorites(1,1)).thenReturn(true);
+        Mockito.when(filmDAO.addFilmToFavorites(1, 1)).thenReturn(true);
 
         //when
         boolean isAdded = filmService.addToFavorites("user", "film");
@@ -166,43 +171,37 @@ public class FilmServiceTest {
         Assert.assertTrue(isAdded);
     }
 
-//    @Test
-//    public void shouldSaveGenres() throws Exception {
-//        //given
-//        Film film = new Film();
-//        film.setName("testFilm");
-//        film.setId(33);
-//
-//        String genres = "1,2";
-//        int[] genresId = {1,2};
-//
-//        Mockito.when(filmDAO.find("testFilm")).thenReturn(film);
-//        Mockito.when(genreDAO.saveFilmToGenre(33, genresId)).thenReturn(true);
-//
-//        //when
-//        boolean isSaved = filmService.saveGenres("testFilm", genres);
-//
-//        //then
-//        Assert.assertTrue(isSaved);
-//    }
+    @Test
+    public void getFilms() throws Exception {
+        //given
+        Film film = new Film();
+        film.setName("filmFromDB");
+        List<Film> films = new ArrayList<>();
+        films.add(film);
 
-//    @Test
-//    public void shouldSaveCountries() throws Exception {
-//        //given
-//        Film film = new Film();
-//        film.setName("testFilm");
-//        film.setId(33);
-//
-//        String countries = "1,2";
-//        int[] countriesId = {1,2};
-//
-//        Mockito.when(filmDAO.find("testFilm")).thenReturn(film);
-//        Mockito.when(countryDAO.saveFilmToCountries(33, countriesId)).thenReturn(true);
-//
-//        //when
-//        boolean isSaved = filmService.saveCountries("testFilm", countries);
-//
-//        //then
-//        Assert.assertTrue(isSaved);
-//    }
+        Mockito.when(filmDAO.findRange(0, 2)).thenReturn(films);
+
+        //when
+        List<FilmDTO> resultList = filmService.getFilms(0, 2);
+
+        //then
+        Assert.assertNotNull(resultList);
+    }
+
+    @Test
+    public void findRange() throws Exception {
+        //given
+        Film film = new Film();
+        film.setName("filmFromDB");
+        List<Film> films = new ArrayList<>();
+        films.add(film);
+
+        Mockito.when(filmDAO.findRange(0, 1)).thenReturn(films);
+
+        //when
+        List<FilmDTO> resultList = filmService.findRange(0, 1);
+
+        //then
+        Assert.assertNotNull(resultList);
+    }
 }

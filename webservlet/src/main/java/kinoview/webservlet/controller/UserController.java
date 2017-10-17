@@ -1,8 +1,12 @@
 package kinoview.webservlet.controller;
 
 import kinoview.commonjdbc.entity.Film;
+import kinoview.commonjdbc.entity.Genre;
 import kinoview.commonjdbc.entity.User;
+import kinoview.commonjdbc.entity.dto.FilmDTO;
+import kinoview.commonjdbc.entity.dto.GenreDTO;
 import kinoview.commonjdbc.service.FilmService;
+import kinoview.commonjdbc.service.GenreService;
 import kinoview.commonjdbc.service.MainService;
 import kinoview.commonjdbc.service.UserService;
 import kinoview.commonjdbc.util.LocalProperties;
@@ -25,6 +29,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by alexfomin on 04.07.17.
@@ -47,6 +52,9 @@ public class UserController {
 
     @Autowired
     private MainService mainService;
+
+    @Autowired
+    GenreService genreService;
 
     @RequestMapping(method = GET, path = "/signUp")
     public ModelAndView signUp() {
@@ -98,13 +106,16 @@ public class UserController {
             int page = 1;
             view.addAllObjects(mainService.getPagination(page, filmsPerPage, lastPageNumber));
 
-            List<Film> rangeOfFilms = filmService.getFilms(page, filmsPerPage);
+            List<FilmDTO> rangeOfFilms = filmService.getFilms(page, filmsPerPage);
 
+            Set<GenreDTO> allGenres = genreService.getAllGenres();
+
+            view.addObject("allGenres", allGenres);
             view.addObject("films", rangeOfFilms);
             view.addObject("user", userDTO);
 
             int thumbNailsNumber = Validator.validateInt(properties.get(THUMBNAILS_NUMBER));
-            List<Film> thumbnails = filmService.getThumbnails(countOfFilms, thumbNailsNumber);
+            List<FilmDTO> thumbnails = filmService.getThumbnails(countOfFilms, thumbNailsNumber);
             view.addObject("thumbnails", thumbnails);
 
             //todo: cookies
@@ -129,12 +140,14 @@ public class UserController {
         int page = 1;
         view.addAllObjects(mainService.getPagination(page, filmsPerPage, lastPageNumber));
 
-        List<Film> rangeOfFilms = filmService.getFilms(page, filmsPerPage);
+        List<FilmDTO> rangeOfFilms = filmService.getFilms(page, filmsPerPage);
+        Set<GenreDTO> allGenres = genreService.getAllGenres();
 
+        view.addObject("allGenres", allGenres);
         view.addObject("films", rangeOfFilms);
 
         int thumbNailsNumber = Validator.validateInt(properties.get(THUMBNAILS_NUMBER));
-        List<Film> thumbnails = filmService.getThumbnails(countOfFilms, thumbNailsNumber);
+        List<FilmDTO> thumbnails = filmService.getThumbnails(countOfFilms, thumbNailsNumber);
         view.addObject("thumbnails", thumbnails);
 
         return view;

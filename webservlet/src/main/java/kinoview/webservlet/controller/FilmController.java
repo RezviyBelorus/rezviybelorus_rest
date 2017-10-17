@@ -1,13 +1,17 @@
 package kinoview.webservlet.controller;
 
+import kinoview.commonjdbc.entity.Country;
 import kinoview.commonjdbc.entity.Film;
+import kinoview.commonjdbc.entity.Genre;
 import kinoview.commonjdbc.service.FilmService;
 import kinoview.commonjdbc.service.UserService;
 import kinoview.webservlet.web.View;
 
 import kinoview.commonjdbc.entity.dto.FilmDTO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -15,6 +19,7 @@ import org.springframework.web.servlet.ModelAndView;
 import static org.springframework.web.bind.annotation.RequestMethod.*;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by alexfomin on 04.07.17.

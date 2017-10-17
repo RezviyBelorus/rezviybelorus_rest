@@ -10,11 +10,6 @@
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="/resources/css/kinoviewstyles.css"/>
 
-    <%--todo: paginaton--%>
-    <link rel="stylesheet" href="/resources/css/simplePagination.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="/resources/js/jquery.simplePagination.js"></script>
-
     <title>kinoview - Main</title>
 
 </head>
@@ -51,7 +46,10 @@
         <div class="leftbar">
             <p>Здесь будут жанры</p>
             <p>
-                Комедии <br/>Ужасы <br/>Фантастика
+                <%--Комедии <br/>Ужасы <br/>Фантастика--%>
+                <c:forEach items="${requestScope.allGenres}" var="genre">
+                    <c:out value="${genre.genreName}"></c:out><br>
+                </c:forEach>
             </p>
         </div>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="0" name="kinoview.commonjdbc.dao.FilmDAOTest" time="0.475" errors="0" skipped="1">
+<testsuite tests="14" failures="0" name="kinoview.commonjdbc.dao.FilmDAOTest" time="0.811" errors="0" skipped="4">
   <properties>
     <property name="idea.version" value="2017.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -8,7 +8,7 @@
     <property name="user.country.format" value="BY"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/alexfomin/IdeaProjects/rezviybelorus/commonjdbc"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/alexfomin/IdeaProjects/rezviybelorus_rest/commonjdbc"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/alexfomin/IdeaProjects/rezviybelorus/commonjdbc"/>
+    <property name="user.dir" value="/Users/alexfomin/IdeaProjects/rezviybelorus_rest/commonjdbc"/>
     <property name="java.runtime.version" value="1.8.0_91-b14"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -64,21 +64,26 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldFindByName" time="0.03"/>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldFindByID" time="0.015"/>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldUpdateFilm" time="0.013"/>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldSaveBatch" time="0.021"/>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldUpdateBatchFilms" time="0.01"/>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldFindRange" time="0.013"/>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldClearDatabase" time="0.013">
+  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldFindByName" time="0.131"/>
+  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldFindByID" time="0.018"/>
+  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldUpdateFilm" time="0.019">
+    <skipped/>
+  </testcase>
+  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldSaveBatch" time="0.039"/>
+  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldUpdateBatchFilms" time="0.039">
+    <skipped/>
+  </testcase>
+  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldFindRange" time="0.01"/>
+  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldClearDatabase" time="0.011">
     <skipped message="transactional is not working, will totally clear the table!"/>
   </testcase>
   <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldCountFilmsInDB" time="0.009"/>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldSetStatus" time="0.011"/>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldSave" time="0.01"/>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldAddFilmToFavorites" time="0.013"/>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldFindLoadedFilms" time="0.267"/>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldDeleteById" time="0.012"/>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldDeleteByName" time="0.03"/>
-  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldSetForeignKeyChecks" time="0.008"/>
+  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldSetStatus" time="0.01"/>
+  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldSave" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldAddFilmToFavorites" time="0.008"/>
+  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldFindLoadedFilms" time="0.478"/>
+  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldDeleteFilm" time="0.022"/>
+  <testcase classname="kinoview.commonjdbc.dao.FilmDAOTest" name="shouldSetForeignKeyChecks" time="0.007"/>
 </testsuite>

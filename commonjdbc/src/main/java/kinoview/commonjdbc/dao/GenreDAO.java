@@ -2,6 +2,7 @@ package kinoview.commonjdbc.dao;
 
 import kinoview.commonjdbc.entity.Genre;
 import org.apache.log4j.Logger;
+import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -14,7 +15,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by alexfomin on 03.07.17.
@@ -26,6 +29,9 @@ public class GenreDAO extends AbstractDAO {
     @Autowired
     private JdbcTemplate template;
 
+    @Autowired
+    SessionFactory sessionFactory;
+
     private String SAVE_GENRE_QUERY = "INSERT INTO genre_type (genre_name) VALUES (?)";
 
     private String DELETE_GENRE_BY_ID_QUERY = "DELETE FROM genre_type WHERE genre_id = ?";
@@ -36,44 +42,30 @@ public class GenreDAO extends AbstractDAO {
 
     private String SELECT_GENRE_BY_GENRE_NAME_QUERY = "SELECT genre_id, genre_name FROM genre_type WHERE genre_name = ?";
 
-    private String SELECT_ALL_GENRES_BY_FILM_QUERY = "SELECT n.genre_name FROM genre_type AS n " +
-            "INNER JOIN films_to_genres AS f ON n.genre_id = f.genre_id WHERE f.film_id=?";
+    private String SELECT_ALL_GENRES_BY_FILM_QUERY = "SELECT gt.genre_name FROM genre_type AS gt " +
+            "INNER JOIN films_to_genres AS f ON gt.genre_id = f.genre_id WHERE f.film_id=?";
 
     private String SELECT_ALL_GENRES_QUERY = "SELECT genre_id, genre_name FROM genre_type";
 
     private String INSERT_FILMS_TO_GENRES_QUERY = "INSERT INTO films_to_genres VALUES (?, ?)";
 
-
-    @Transactional
     public boolean save(Genre genre) {
-        template.update(SAVE_GENRE_QUERY, genre.getGenreName());
+        sessionFactory.getCurrentSession().saveOrUpdate(genre);
         return true;
     }
 
-    public boolean saveFilmToGenre(int filmId, List<Integer> genresId) {
-        template.batchUpdate(INSERT_FILMS_TO_GENRES_QUERY, new BatchPreparedStatementSetter() {
-            @Override
-            public void setValues(PreparedStatement ps, int i) throws SQLException {
-                int genreId = genresId.get(i);
-                ps.setInt(1, filmId);
-                ps.setInt(2, genreId);
-            }
+//    public boolean delete(int id) {
+//        template.update(DELETE_GENRE_BY_ID_QUERY, id);
+//        return true;
+//    }
+//
+//    public boolean delete(String genreName) {
+//        template.update(DELETE_GENRE_BY_NAME_QUERY, genreName);
+//        return true;
+//    }
 
-            @Override
-            public int getBatchSize() {
-                return genresId.size();
-            }
-        });
-        return true;
-    }
-
-    public boolean delete(int id) {
-        template.update(DELETE_GENRE_BY_ID_QUERY, id);
-        return true;
-    }
-
-    public boolean delete(String genreName) {
-        template.update(DELETE_GENRE_BY_NAME_QUERY, genreName);
+    public boolean delete(Genre genre) {
+        sessionFactory.getCurrentSession().delete(genre);
         return true;
     }
 
@@ -102,9 +94,9 @@ public class GenreDAO extends AbstractDAO {
         }, genreName);
     }
 
-    public List<Genre> findAllGenres(){
+    public Set<Genre> findAllGenres() {
         SqlRowSet rowSet = template.queryForRowSet(SELECT_ALL_GENRES_QUERY);
-        List<Genre> genres = new ArrayList<>();
+        Set<Genre> genres = new HashSet<>();
         while (rowSet.next()) {
             Genre genre = new Genre();
             genre.setGenreId(rowSet.getInt(1));
@@ -114,13 +106,12 @@ public class GenreDAO extends AbstractDAO {
         return genres;
     }
 
-    public List<String> findAllByFilm(int filmId) {
+    public Set<String> findAllByFilm(int filmId) {
         SqlRowSet rs = template.queryForRowSet(SELECT_ALL_GENRES_BY_FILM_QUERY, filmId);
-        List<String> genres = new ArrayList<>();
-        while (rs.next()){
-         genres.add(rs.getString(1));
+        Set<String> genres = new HashSet<>();
+        while (rs.next()) {
+            genres.add(rs.getString(1));
         }
         return genres;
     }
-
 }

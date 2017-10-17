@@ -6,7 +6,142 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="309a6b61-f47f-4569-b161-9a996e380ac8" name="Default" comment="" />
+    <list default="true" id="309a6b61-f47f-4569-b161-9a996e380ac8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/CountryDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/GenreDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/TestMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/JavaConfig.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RezviyBelorus" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/CountryDAO$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/FilmDAO$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/FilmDAO$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/FilmDAO$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/FilmDAO$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/FilmDAO$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/GenreDAO$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webservlet/src/main/webapp/resources/css/simplePagination.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webservlet/target/web-servlet/resources/css/simplePagination.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/AbstractDAO.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/AbstractDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/CountryDAO$1.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/CountryDAO$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/CountryDAO$2.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/CountryDAO$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/CountryDAO.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/CountryDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/FilmDAO.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/FilmDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/GenreDAO$1.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/GenreDAO$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/GenreDAO$2.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/GenreDAO$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/GenreDAO.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/GenreDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/UserDAO$1.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/UserDAO$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/UserDAO$2.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/UserDAO$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/UserDAO.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/dao/UserDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/entity/Country.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/entity/Country.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/entity/Film.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/entity/Film.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/entity/Genre.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/entity/Genre.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/entity/User.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/entity/dto/FilmDTO.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/entity/dto/FilmDTO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/CountryService.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/CountryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/FilmService.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/FilmService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/GenreService.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/GenreService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/KinogoPageParser.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/KinogoPageParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/TaskManager.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/TaskManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/TaskManagerService.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/TaskManagerService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/UserService.class" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/kinoview/commonjdbc/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/commonjdbc-1.0.jar" afterPath="$PROJECT_DIR$/commonjdbc/target/commonjdbc-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/dao/CountryDAOTest.class" afterPath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/dao/CountryDAOTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/dao/FilmDAOTest.class" afterPath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/dao/FilmDAOTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/dao/GenreDAOTest.class" afterPath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/dao/GenreDAOTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/dao/UserDAOTest.class" afterPath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/dao/UserDAOTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/service/CountryServiceTest.class" afterPath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/service/CountryServiceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/service/FilmServiceTest.class" afterPath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/service/FilmServiceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/service/GenreServiceTest.class" afterPath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/service/GenreServiceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/service/TaskManagerTest.class" afterPath="$PROJECT_DIR$/commonjdbc/target/test-classes/kinoview/commonjdbc/service/TaskManagerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/classes/kinoview/webservlet/controller/CountryController.class" afterPath="$PROJECT_DIR$/webservlet/target/classes/kinoview/webservlet/controller/CountryController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/classes/kinoview/webservlet/controller/FilmController.class" afterPath="$PROJECT_DIR$/webservlet/target/classes/kinoview/webservlet/controller/FilmController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/classes/kinoview/webservlet/controller/GenreController.class" afterPath="$PROJECT_DIR$/webservlet/target/classes/kinoview/webservlet/controller/GenreController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/classes/kinoview/webservlet/controller/MainController.class" afterPath="$PROJECT_DIR$/webservlet/target/classes/kinoview/webservlet/controller/MainController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/classes/kinoview/webservlet/controller/UserController.class" afterPath="$PROJECT_DIR$/webservlet/target/classes/kinoview/webservlet/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/test-classes/webservlet/controller/CountryControllerTest.class" afterPath="$PROJECT_DIR$/webservlet/target/test-classes/webservlet/controller/CountryControllerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/test-classes/webservlet/controller/GenreControllerTest.class" afterPath="$PROJECT_DIR$/webservlet/target/test-classes/webservlet/controller/GenreControllerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/classes/kinoview/webservlet/controller/CountryController.class" afterPath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/classes/kinoview/webservlet/controller/CountryController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/classes/kinoview/webservlet/controller/FilmController.class" afterPath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/classes/kinoview/webservlet/controller/FilmController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/classes/kinoview/webservlet/controller/GenreController.class" afterPath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/classes/kinoview/webservlet/controller/GenreController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/classes/kinoview/webservlet/controller/MainController.class" afterPath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/classes/kinoview/webservlet/controller/MainController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/classes/kinoview/webservlet/controller/UserController.class" afterPath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/classes/kinoview/webservlet/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/lib/commonjdbc-1.0.jar" afterPath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/lib/commonjdbc-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/webservlet_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webservlet_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/946a71b7-c15b-47ff-8d7b-aaab572ee40d.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/946a71b7-c15b-47ff-8d7b-aaab572ee40d.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/commonjdbc.iml" afterPath="$PROJECT_DIR$/commonjdbc/commonjdbc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/log_file.log" afterPath="$PROJECT_DIR$/commonjdbc/log_file.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/pom.xml" afterPath="$PROJECT_DIR$/commonjdbc/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/AbstractDAO.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/AbstractDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/CountryDAO.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/CountryDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/FilmDAO.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/FilmDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/GenreDAO.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/GenreDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/UserDAO.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/UserDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/Country.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/Country.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/Film.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/Film.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/Genre.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/Genre.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/User.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/FilmDTO.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/FilmDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/CountryService.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/CountryService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/FilmService.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/FilmService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/GenreService.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/GenreService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/KinogoPageParser.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/KinogoPageParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/UserService.java" afterPath="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/main/resources/common-jdbc.xml" afterPath="$PROJECT_DIR$/commonjdbc/src/main/resources/common-jdbc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/CountryDAOTest.java" afterPath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/CountryDAOTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/FilmDAOTest.java" afterPath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/FilmDAOTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/GenreDAOTest.java" afterPath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/GenreDAOTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/UserDAOTest.java" afterPath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/UserDAOTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/CountryServiceTest.java" afterPath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/CountryServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/FilmServiceTest.java" afterPath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/FilmServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/GenreServiceTest.java" afterPath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/GenreServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/TaskManagerTest.java" afterPath="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/TaskManagerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/classes/common-jdbc.xml" afterPath="$PROJECT_DIR$/commonjdbc/target/classes/common-jdbc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/commonjdbc/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/commonjdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/commonjdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/commonjdbc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.dao.CountryDAOTest.xml" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.dao.CountryDAOTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.dao.FilmDAOTest.xml" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.dao.FilmDAOTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.dao.GenreDAOTest.xml" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.dao.GenreDAOTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.dao.UserDAOTest.xml" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.dao.UserDAOTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.service.CountryServiceTest.xml" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.service.CountryServiceTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.service.FilmServiceTest.xml" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.service.FilmServiceTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.service.GenreServiceTest.xml" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.service.GenreServiceTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.service.TaskManagerTest.xml" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.service.TaskManagerTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.service.UserServiceTest.xml" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.service.UserServiceTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.util.JDBCFactoryTest.xml" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.util.JDBCFactoryTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.util.LocalPropertiesTest.xml" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/TEST-kinoview.commonjdbc.util.LocalPropertiesTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.dao.CountryDAOTest.txt" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.dao.CountryDAOTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.dao.FilmDAOTest.txt" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.dao.FilmDAOTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.dao.GenreDAOTest.txt" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.dao.GenreDAOTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.dao.UserDAOTest.txt" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.dao.UserDAOTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.service.CountryServiceTest.txt" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.service.CountryServiceTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.service.FilmServiceTest.txt" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.service.FilmServiceTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.service.GenreServiceTest.txt" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.service.GenreServiceTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.service.UserServiceTest.txt" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.service.UserServiceTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.util.JDBCFactoryTest.txt" afterPath="$PROJECT_DIR$/commonjdbc/target/surefire-reports/kinoview.commonjdbc.util.JDBCFactoryTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log_file.log" afterPath="$PROJECT_DIR$/log_file.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/pom.xml" afterPath="$PROJECT_DIR$/webservlet/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/CountryController.java" afterPath="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/CountryController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/FilmController.java" afterPath="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/FilmController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/GenreController.java" afterPath="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/GenreController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/MainController.java" afterPath="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/UserController.java" afterPath="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/src/main/resources/webservlet.xml" afterPath="$PROJECT_DIR$/webservlet/src/main/resources/webservlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/main.jsp" afterPath="$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/src/test/java/webservlet/controller/CountryControllerTest.java" afterPath="$PROJECT_DIR$/webservlet/src/test/java/webservlet/controller/CountryControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/src/test/java/webservlet/controller/GenreControllerTest.java" afterPath="$PROJECT_DIR$/webservlet/src/test/java/webservlet/controller/GenreControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/classes/webservlet.xml" afterPath="$PROJECT_DIR$/webservlet/target/classes/webservlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/classes/webservlet.xml" afterPath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/classes/webservlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/view/main.jsp" afterPath="$PROJECT_DIR$/webservlet/target/web-servlet/WEB-INF/view/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservlet/webservlet.iml" afterPath="$PROJECT_DIR$/webservlet/webservlet.iml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/commonjdbc/target/" />
@@ -44,74 +179,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="common-jdbc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/resources/common-jdbc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="73" lean-forward="false" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webservlet/src/main/resources/local.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="webservlet.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webservlet/src/main/resources/webservlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/Test.java">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="424">
+              <caret line="89" column="93" lean-forward="true" selection-start-line="89" selection-start-column="93" selection-end-line="89" selection-end-column="93" />
               <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#138#139#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskManagerService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/TaskManagerService.java">
+      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/resources/local.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+            <state relative-caret-position="0">
+              <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/TaskManager.java">
+      <file leaf-file-name="FilmDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/FilmDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="1035">
+              <caret line="69" column="18" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/login.jsp">
+      <file leaf-file-name="FilmService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/FilmService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="3030">
+              <caret line="221" column="25" lean-forward="false" selection-start-line="221" selection-start-column="25" selection-end-line="221" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -144,10 +260,16 @@
       <find>count</find>
       <find>POST</find>
       <find>GET</find>
+      <find>junit</find>
+      <find>countries</find>
+      <find>delete</find>
+      <find>info</find>
+      <find>javax.servlet</find>
+      <find>webmvc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/RezviyBelorus" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -157,57 +279,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/signUp.html" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/signUp.jsp" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/resources/local.properties" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/GlobalControllerExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/TestMain.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/test/Display.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/test/AspectDisplay.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/test/AspectDisplay.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/test/DisplayTits.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/test/Main.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/testAspect/Main.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/testAspect/DisplayTits.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/main.jsp" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/util/JDBCFactory.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/pom.xml" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/TestDAO.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/test/resources/common-jdbc.xml" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/GenreDAOTest.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/resources/webservlet.xml" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/CountryDAO.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/946a71b7-c15b-47ff-8d7b-aaab572ee40d/console.sql" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/FilmDAOTest.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/Test.java" />
         <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/AbstractDAO.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/User.java" />
         <option value="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/UserDAOTest.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/resources/local.properties" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/login_error.jsp" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/GenreDAO.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/login.jsp" />
-        <option value="$PROJECT_DIR$/webservlet/pom.xml" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/UserMarker.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/aspect/UserControllerAspect.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/aspect/TaskManagerAspect.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/resources/common-jdbc.xml" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/TaskManagerService.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/CountryDAOTest.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/web/View.java" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/sign_up.jsp" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/sign_up_error.jsp" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/webapp/resources/css/kinoviewstyles.css" />
-        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/UserController.java" />
         <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/UserService.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/CountryService.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/GenreService.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/FilmService.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/Film.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/Country.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/resources/common-jdbc.xml" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/CountryDAO.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/GenreDAO.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/946a71b7-c15b-47ff-8d7b-aaab572ee40d/console.sql" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/KinogoPageParser.java" />
         <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/FilmDAO.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/TaskManager.java" />
-        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/Test.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/TaskManagerService.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/TestMain.java" />
+        <option value="$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/main.jsp" />
+        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/FilmController.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/MainService.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/Jconfig.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/util/Jconfig.java" />
+        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/Jconfig.java" />
+        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/JsonViewResolver.java" />
+        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/AppInitializer.java" />
+        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/JavaConfig.java" />
+        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/View.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/View.java" />
+        <option value="$PROJECT_DIR$/webservlet/pom.xml" />
+        <option value="$PROJECT_DIR$/commonjdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/webservlet/src/main/resources/webservlet.xml" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/StringResponse.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/Genre.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/CountryDTO.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/FilmService.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/GenreService.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/CountryService.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/CountryServiceTest.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/GenreServiceTest.java" />
+        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/CountryController.java" />
+        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/GenreController.java" />
+        <option value="$PROJECT_DIR$/webservlet/src/test/java/webservlet/controller/GenreControllerTest.java" />
+        <option value="$PROJECT_DIR$/webservlet/src/test/java/webservlet/controller/CountryControllerTest.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/GenreDTO.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/FilmServiceTest.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/FilmDTO.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/CountryDAOTest.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/GenreDAOTest.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/FilmDAOTest.java" />
+        <option value="$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/TaskManagerTest.java" />
+        <option value="$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/MainController.java" />
       </list>
     </option>
   </component>
@@ -266,10 +388,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="824" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -346,44 +468,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -392,35 +513,63 @@
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -429,29 +578,38 @@
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="commonjdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservlet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservlet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservlet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservlet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -459,16 +617,7 @@
               <item name="webservlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservlet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webservlet" type="462c0819:PsiDirectoryNode" />
-              <item name="aspect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservlet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -477,30 +626,21 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservlet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webservlet" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservlet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservlet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservlet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -508,7 +648,7 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rezviybelorus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rezviybelorus_rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservlet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -520,6 +660,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -530,7 +671,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37241378" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -539,17 +680,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="kinoview.commonjdbc.service" />
       <recent name="kinoview.commonjdbc.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/commonjdbc/src/test/resources" />
-      <recent name="$PROJECT_DIR$/webservlet/src/main/webapp/resources/css" />
-      <recent name="$PROJECT_DIR$/webservlet/src/main/webapp/resources/js" />
-      <recent name="$PROJECT_DIR$/webservlet/src/main/webapp/resources/thumbnails" />
-      <recent name="$PROJECT_DIR$/webservlet/src/main/resources/css" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/webservlet/src/test" />
@@ -557,6 +689,19 @@
       <recent name="$PROJECT_DIR$/webservlet/src/main/webapp/resources/css" />
       <recent name="$PROJECT_DIR$/webservlet/src/main/webapp/resources" />
       <recent name="$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="kinoview.commonjdbc.util" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/commonjdbc/src/test/resources" />
+      <recent name="$PROJECT_DIR$/webservlet/src/main/webapp/resources/css" />
+      <recent name="$PROJECT_DIR$/webservlet/src/main/webapp/resources/js" />
+      <recent name="$PROJECT_DIR$/webservlet/src/main/webapp/resources/thumbnails" />
+      <recent name="$PROJECT_DIR$/webservlet/src/main/resources/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -571,19 +716,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FilmDAOTest.shouldFindLoadedFilms">
-    <configuration name="FilmDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Tomcat Server.tomcat">
+    <configuration name="CountryServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="kinoview.commonjdbc.dao.*" />
+          <option name="PATTERN" value="kinoview.commonjdbc.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="commonjdbc" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="kinoview.commonjdbc.dao" />
-      <option name="MAIN_CLASS_NAME" value="kinoview.commonjdbc.dao.FilmDAOTest" />
+      <option name="PACKAGE_NAME" value="kinoview.commonjdbc.service" />
+      <option name="MAIN_CLASS_NAME" value="kinoview.commonjdbc.service.CountryServiceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -597,20 +742,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FilmDAOTest.shouldCountFilmsInDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FilmServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="kinoview.commonjdbc.dao.*" />
+          <option name="PATTERN" value="kinoview.commonjdbc.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="commonjdbc" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="kinoview.commonjdbc.dao" />
-      <option name="MAIN_CLASS_NAME" value="kinoview.commonjdbc.dao.FilmDAOTest" />
-      <option name="METHOD_NAME" value="shouldCountFilmsInDB" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="kinoview.commonjdbc.service" />
+      <option name="MAIN_CLASS_NAME" value="kinoview.commonjdbc.service.FilmServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -622,20 +767,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FilmDAOTest.shouldDeleteByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenreServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="kinoview.commonjdbc.dao.*" />
+          <option name="PATTERN" value="kinoview.commonjdbc.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="commonjdbc" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="kinoview.commonjdbc.dao" />
-      <option name="MAIN_CLASS_NAME" value="kinoview.commonjdbc.dao.FilmDAOTest" />
-      <option name="METHOD_NAME" value="shouldDeleteByName" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="kinoview.commonjdbc.service" />
+      <option name="MAIN_CLASS_NAME" value="kinoview.commonjdbc.service.GenreServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -647,20 +792,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FilmDAOTest.shouldFindByID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="kinoview.commonjdbc.dao.*" />
+          <option name="PATTERN" value="kinoview.commonjdbc.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="commonjdbc" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="kinoview.commonjdbc.dao" />
-      <option name="MAIN_CLASS_NAME" value="kinoview.commonjdbc.dao.FilmDAOTest" />
-      <option name="METHOD_NAME" value="shouldFindByID" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="kinoview.commonjdbc.service" />
+      <option name="MAIN_CLASS_NAME" value="kinoview.commonjdbc.service.TaskManagerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -672,20 +817,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FilmDAOTest.shouldFindLoadedFilms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="kinoview.commonjdbc.dao.*" />
+          <option name="PATTERN" value="kinoview.commonjdbc.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="commonjdbc" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="kinoview.commonjdbc.dao" />
-      <option name="MAIN_CLASS_NAME" value="kinoview.commonjdbc.dao.FilmDAOTest" />
-      <option name="METHOD_NAME" value="shouldFindLoadedFilms" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="kinoview.commonjdbc.service" />
+      <option name="MAIN_CLASS_NAME" value="kinoview.commonjdbc.service.UserServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -900,7 +1045,6 @@
       </RunnerSettings>
     </configuration>
     <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M22" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="webservlet:war exploded">
@@ -911,6 +1055,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_rezviybelorus" />
+        <option name="JNDI_PORT" value="1100" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -974,19 +1119,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FilmDAOTest.shouldDeleteByName" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FilmDAOTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FilmDAOTest.shouldCountFilmsInDB" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FilmDAOTest.shouldFindLoadedFilms" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.FilmDAOTest.shouldFindByID" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TaskManagerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GenreServiceTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FilmServiceTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CountryServiceTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FilmDAOTest.shouldFindLoadedFilms" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FilmDAOTest.shouldFindByID" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FilmDAOTest.shouldCountFilmsInDB" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FilmDAOTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FilmDAOTest.shouldDeleteByName" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CountryServiceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FilmServiceTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GenreServiceTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TaskManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1192,82 +1337,161 @@
       <workItem from="1507104048054" duration="151000" />
       <workItem from="1507104227265" duration="866000" />
       <workItem from="1507105247928" duration="637000" />
-      <workItem from="1507105978306" duration="23000" />
+      <workItem from="1507105978306" duration="927000" />
+      <workItem from="1507451273493" duration="1446000" />
+      <workItem from="1507532755916" duration="420000" />
+      <workItem from="1507533219836" duration="1743000" />
+      <workItem from="1507535039764" duration="1757000" />
+      <workItem from="1507537087983" duration="1440000" />
+      <workItem from="1507538600395" duration="1574000" />
+      <workItem from="1507540496047" duration="1752000" />
+      <workItem from="1507542388916" duration="1617000" />
+      <workItem from="1507544247713" duration="491000" />
+      <workItem from="1507545094216" duration="1519000" />
+      <workItem from="1507547327564" duration="1712000" />
+      <workItem from="1507549143016" duration="1576000" />
+      <workItem from="1507551738512" duration="1750000" />
+      <workItem from="1507553562910" duration="1582000" />
+      <workItem from="1507555453028" duration="676000" />
+      <workItem from="1507568980377" duration="44000" />
+      <workItem from="1507618556782" duration="548000" />
+      <workItem from="1507621053011" duration="1668000" />
+      <workItem from="1507622863706" duration="977000" />
+      <workItem from="1507623957287" duration="1446000" />
+      <workItem from="1507625964177" duration="1659000" />
+      <workItem from="1507628966965" duration="1183000" />
+      <workItem from="1507630265927" duration="912000" />
+      <workItem from="1507639794717" duration="1051000" />
+      <workItem from="1507640913106" duration="1166000" />
+      <workItem from="1507642170786" duration="1645000" />
+      <workItem from="1507643944849" duration="1714000" />
+      <workItem from="1507645767240" duration="1094000" />
+      <workItem from="1507658675415" duration="1711000" />
+      <workItem from="1507660489031" duration="1748000" />
+      <workItem from="1507704053828" duration="1693000" />
+      <workItem from="1507705868447" duration="1717000" />
+      <workItem from="1507707680126" duration="1811000" />
+      <workItem from="1507709882531" duration="1831000" />
+      <workItem from="1507716195774" duration="2120000" />
+      <workItem from="1507794114077" duration="1266000" />
+      <workItem from="1507796963020" duration="58000" />
+      <workItem from="1507798694082" duration="188000" />
+      <workItem from="1507909199285" duration="104000" />
+      <workItem from="1507965241536" duration="1569000" />
+      <workItem from="1507967237771" duration="1740000" />
+      <workItem from="1507969068719" duration="671000" />
+      <workItem from="1507969824838" duration="1411000" />
+      <workItem from="1507971501509" duration="1606000" />
+      <workItem from="1507973331777" duration="1190000" />
+      <workItem from="1508138369283" duration="1341000" />
+      <workItem from="1508139841331" duration="865000" />
+      <workItem from="1508140822500" duration="1647000" />
+      <workItem from="1508142646662" duration="954000" />
+      <workItem from="1508143770126" duration="452000" />
+      <workItem from="1508144291207" duration="1629000" />
+      <workItem from="1508149218992" duration="1600000" />
+      <workItem from="1508151237132" duration="562000" />
+      <workItem from="1508151896915" duration="1077000" />
+      <workItem from="1508162831665" duration="1426000" />
+      <workItem from="1508169633268" duration="1709000" />
+      <workItem from="1508171382148" duration="688000" />
+      <workItem from="1508172158312" duration="168000" />
+      <workItem from="1508172388423" duration="1609000" />
+      <workItem from="1508174520843" duration="104000" />
+      <workItem from="1508174672293" duration="587000" />
+      <workItem from="1508188902425" duration="31000" />
+      <workItem from="1508224695164" duration="1081000" />
+      <workItem from="1508225946178" duration="19000" />
+      <workItem from="1508226081614" duration="1212000" />
+      <workItem from="1508228866202" duration="5000" />
+      <workItem from="1508229611634" duration="5000" />
+      <workItem from="1508230055144" duration="62000" />
+      <workItem from="1508233618807" duration="22000" />
+      <workItem from="1508238448795" duration="639000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FilmDAOTest_shouldFindByID - 2017.09.28 at 22h 31m 16s.xml">
-      <configuration name="FilmDAOTest.shouldFindByID" configurationId="JUnit" />
+    <history-entry file="CountryServiceTest - 2017.10.17 at 10h 36m 42s.xml">
+      <configuration name="CountryServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilmDAOTest_shouldFindLoadedFilms - 2017.09.28 at 22h 31m 58s.xml">
-      <configuration name="FilmDAOTest.shouldFindLoadedFilms" configurationId="JUnit" />
+    <history-entry file="FilmDAOTest - 2017.10.17 at 10h 34m 09s.xml">
+      <configuration name="FilmDAOTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilmDAOTest_shouldFindLoadedFilms - 2017.09.28 at 22h 32m 19s.xml">
-      <configuration name="FilmDAOTest.shouldFindLoadedFilms" configurationId="JUnit" />
+    <history-entry file="FilmDAOTest - 2017.10.17 at 10h 34m 39s.xml">
+      <configuration name="FilmDAOTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilmDAOTest_shouldFindLoadedFilms - 2017.09.28 at 22h 32m 41s.xml">
-      <configuration name="FilmDAOTest.shouldFindLoadedFilms" configurationId="JUnit" />
+    <history-entry file="FilmDAOTest - 2017.10.17 at 10h 35m 15s.xml">
+      <configuration name="FilmDAOTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDAOTest_shouldFindByEmailOrLogin - 2017.09.21 at 15h 23m 44s.xml">
-      <configuration name="UserDAOTest.shouldFindByEmailOrLogin" configurationId="JUnit" />
+    <history-entry file="FilmDAOTest_shouldSave - 2017.10.17 at 10h 34m 25s.xml">
+      <configuration name="FilmDAOTest.shouldSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDAOTest_shouldFindById - 2017.09.21 at 15h 20m 51s.xml">
-      <configuration name="UserDAOTest.shouldFindById" configurationId="JUnit" />
+    <history-entry file="FilmServiceTest - 2017.10.17 at 10h 36m 37s.xml">
+      <configuration name="FilmServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDAOTest_shouldFindById - 2017.09.21 at 15h 21m 11s.xml">
-      <configuration name="UserDAOTest.shouldFindById" configurationId="JUnit" />
+    <history-entry file="GenreServiceTest - 2017.10.17 at 10h 36m 29s.xml">
+      <configuration name="GenreServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDAOTest_shouldSaveUser - 2017.09.21 at 15h 13m 52s.xml">
-      <configuration name="UserDAOTest.shouldSaveUser" configurationId="JUnit" />
+    <history-entry file="TaskManagerTest - 2017.10.17 at 10h 35m 47s.xml">
+      <configuration name="TaskManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDAOTest_shouldSetStatus - 2017.09.21 at 15h 25m 51s.xml">
-      <configuration name="UserDAOTest.shouldSetStatus" configurationId="JUnit" />
+    <history-entry file="TaskManagerTest - 2017.10.17 at 10h 36m 10s.xml">
+      <configuration name="TaskManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDAOTest_shouldSetStatus - 2017.09.21 at 15h 25m 58s.xml">
-      <configuration name="UserDAOTest.shouldSetStatus" configurationId="JUnit" />
+    <history-entry file="UserServiceTest - 2017.10.17 at 10h 36m 21s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179293000" />
+    <option name="totallyTimeSpent" value="258287000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4248927" sideWeight="0.49191687" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35622317" sideWeight="0.50808316" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26785713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31337047" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30222842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39055794" sideWeight="0.49191687" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35622317" sideWeight="0.50808316" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3065395" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32060027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3119891" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32700136" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32784638" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35479453" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1275,29 +1499,33 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26880223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31337047" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30222842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24177396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35479453" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46852645" sideWeight="0.49191687" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35622317" sideWeight="0.50808316" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1307,340 +1535,43 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/RezviyBelorus" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/FilmDTO.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/MainController.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="78" />
+      <option name="time" value="154" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="filmsToSave.get(0)" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="film.genres.toArray()[2]" />
+        <watch expression="film" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="58" column="88" lean-forward="false" selection-start-line="58" selection-start-column="88" selection-end-line="58" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/login_error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="423" column="0" lean-forward="false" selection-start-line="423" selection-start-column="0" selection-end-line="423" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/UserMarker.java" />
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/aspect/TaskManagerAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#627#628#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.11.RELEASE/spring-jdbc-4.3.11.RELEASE.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="36" column="51" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/aspect/UserControllerAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
-          <folding>
-            <marker date="1506070903000" expanded="true" signature="686:1589" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/CountryDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/UserDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/GenreDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
-          <caret line="83" column="35" lean-forward="false" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/sign_up_error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="48" column="39" lean-forward="false" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/sign_up.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="47" column="45" lean-forward="false" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/webapp/resources/css/kinoviewstyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="96" column="8" lean-forward="true" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/web/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/KinogoPageParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="61" column="36" lean-forward="false" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6bd6c827/946a71b7-c15b-47ff-8d7b-aaab572ee40d/kino_view.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/TestMain.java" />
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/TestMain.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/bind/annotation/ControllerAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/GlobalControllerExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.11.RELEASE/spring-tx-4.3.11.RELEASE.jar!/org/springframework/transaction/annotation/Isolation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="79" column="17" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/GenreDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/AbstractDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/CountryDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.11.RELEASE/spring-tx-4.3.11.RELEASE.jar!/org/springframework/transaction/annotation/Propagation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/GenreService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/FilmService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="251" column="4" lean-forward="false" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/CountryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/MainService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.11.RELEASE/spring-tx-4.3.11.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/FilmDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="124" column="54" lean-forward="false" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/FilmDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1905">
-          <caret line="143" column="27" lean-forward="false" selection-start-line="143" selection-start-column="27" selection-end-line="143" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar!/org/springframework/scheduling/annotation/Scheduled.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/TaskManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/resources/common-jdbc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="73" lean-forward="false" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservlet/src/main/resources/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1649,29 +1580,837 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/TaskManagerService.java">
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/webapp/resources/css/simplePagination.css" />
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/webapp/resources/css/kinoviewstyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        <state relative-caret-position="-1157">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/web/filter/MainFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/webapp/WEB-INF/view/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1097">
+          <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/http/ResponseEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/kinoviewModules:webservlet:1.0">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>kinoviewModules:webservlet:1.0</OriginalElement>
+          <nodes>
+            <node x="0.0" y="634.1817714178819">kinoviewModules:webservlet:1.0</node>
+            <node x="203.0" y="634.1817714178819">kinoviewModules:commonjdbc:jar:1.0</node>
+            <node x="480.0" y="282.38334736251306">kinoviewModules:commonjdbc:jar:1.0/log4j:log4j:jar:1.2.17</node>
+            <node x="427.5" y="352.38334736251306">kinoviewModules:commonjdbc:jar:1.0/mysql:mysql-connector-java:jar:6.0.6</node>
+            <node x="474.0" y="422.38334736251306">kinoviewModules:commonjdbc:jar:1.0/org.hsqldb:hsqldb:jar:2.4.0</node>
+            <node x="459.5" y="1229.6404320987656">kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE</node>
+            <node x="726.5" y="1181.8904320987656">kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-beans:jar:4.3.11.RELEASE</node>
+            <node x="731.5" y="1247.3904320987656">kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-core:jar:4.3.11.RELEASE</node>
+            <node x="1037.5" y="1213.1404320987656">kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.11.RELEASE</node>
+            <node x="1283.5" y="1241.994271417882">kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.11.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
+            <node x="1288.5" y="1311.994271417882">kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.11.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE</node>
+            <node x="445.0" y="942.9317714178819">kinoviewModules:commonjdbc:jar:1.0/org.apache.commons:commons-lang3:jar:3.0</node>
+            <node x="476.5" y="212.38334736251306">kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0</node>
+            <node x="748.0" y="121.49427141788192">kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0/com.google.code.findbugs:jsr305:jar:1.3.9</node>
+            <node x="691.5" y="261.4942714178819">kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0/com.google.errorprone:error_prone_annotations:jar:2.0.18</node>
+            <node x="709.0" y="331.4942714178819">kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0/com.google.j2objc:j2objc-annotations:jar:1.1</node>
+            <node x="685.0" y="191.49427141788192">kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0/org.codehaus.mojo:animal-sniffer-annotations:jar:1.14</node>
+            <node x="478.0" y="1012.9317714178819">kinoviewModules:commonjdbc:jar:1.0/org.jsoup:jsoup:jar:1.10.3</node>
+            <node x="721.5" y="1302.3904320987656">kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-context:jar:4.3.10.RELEASE</node>
+            <node x="460.5" y="492.38334736251306">kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE</node>
+            <node x="726.5" y="471.4942714178819">kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE/org.springframework:spring-beans:jar:5.0.0.RELEASE</node>
+            <node x="731.5" y="541.4942714178819">kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE/org.springframework:spring-core:jar:5.0.0.RELEASE</node>
+            <node x="732.0" y="611.4942714178819">kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE/org.springframework:spring-jdbc:jar:5.0.0.RELEASE</node>
+            <node x="739.0" y="401.4942714178819">kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE/org.springframework:spring-tx:jar:5.0.0.RELEASE</node>
+            <node x="419.0" y="772.7442714178819">kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final</node>
+            <node x="1282.0" y="744.8362794612785">kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="722.0" y="901.3695987654322">kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final</node>
+            <node x="1052.0" y="923.4942714178819">kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="1046.0" y="993.4942714178819">kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final/org.jboss:jandex:jar:2.0.3.Final</node>
+            <node x="1035.5" y="872.4942714178819">kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final/com.fasterxml:classmate:jar:1.3.0</node>
+            <node x="1047.0" y="1133.494271417882">kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="964.0" y="732.4942714178819">kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
+            <node x="1001.0" y="662.4942714178819">kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
+            <node x="1039.5" y="802.4942714178819">kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.javassist:javassist:jar:3.20.0-GA</node>
+            <node x="731.5" y="759.9942714178819">kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/net.bytebuddy:byte-buddy:jar:1.6.14</node>
+            <node x="970.0" y="1063.494271417882">kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final</node>
+            <node x="229.0" y="0.0">junit:junit:jar:4.12</node>
+            <node x="450.0" y="0.0">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="192.5" y="357.1817714178819">javax.servlet:javax.servlet-api:jar:3.1.0</node>
+            <node x="233.5" y="427.1817714178819">jstl:jstl:jar:1.2</node>
+            <node x="181.5" y="497.1817714178819">javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1</node>
+            <node x="180.0" y="111.70293209876547">commons-httpclient:commons-httpclient:jar:3.1</node>
+            <node x="439.0" y="70.0">commons-httpclient:commons-httpclient:jar:3.1/commons-logging:commons-logging:jar:1.0.4</node>
+            <node x="443.5" y="140.0">commons-httpclient:commons-httpclient:jar:3.1/commons-codec:commons-codec:jar:1.2</node>
+            <node x="208.5" y="938.7442714178819">org.mockito:mockito-all:jar:1.10.19</node>
+            <node x="195.0" y="1359.494271417882">org.springframework:spring-webmvc:jar:4.3.10.RELEASE</node>
+            <node x="1032.0" y="1280.6404320987656">org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE</node>
+            <node x="726.5" y="1378.619271417882">org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
+            <node x="1288.5" y="1425.619271417882">org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE</node>
+            <node x="1481.0" y="1425.619271417882">org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="1010.0" y="1434.619271417882">org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE</node>
+            <node x="460.0" y="1341.119271417882">org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE</node>
+            <node x="196.0" y="1506.3125">org.springframework:spring-aspects:jar:4.3.11.RELEASE</node>
+            <node x="451.5" y="1506.3125">org.springframework:spring-aspects:jar:4.3.11.RELEASE/org.aspectj:aspectjweaver:jar:1.8.9</node>
+            <node x="199.0" y="1429.494271417882">org.aspectj:aspectjweaver:jar:1.8.10</node>
+            <node x="202.5" y="1576.3125">com.fasterxml.jackson.core:jackson-core:jar:2.9.1</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.11.RELEASE">
+              <point x="52.5" y="-0.0" />
+              <point x="605.0" y="1244.6404320987656" />
+              <point x="685.0" y="1228.1404320987656" />
+              <point x="-45.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:webservlet:1.0" target="jstl:jstl:jar:1.2">
+              <point x="50.0" y="-5.454545454545496" />
+              <point x="180.0" y="442.1817714178819" />
+              <point x="-26.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="64.5" y="12.5" />
+              <point x="339.0" y="1386.994271417882" />
+              <point x="419.0" y="1475.119271417882" />
+              <point x="1202.0" y="1475.119271417882" />
+              <point x="-53.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="52.0" y="11.25" />
+              <point x="605.0" y="1367.369271417882" />
+              <point x="685.0" y="1386.119271417882" />
+              <point x="-58.0" y="-7.5" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0" target="kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0/com.google.errorprone:error_prone_annotations:jar:2.0.18">
+              <point x="35.5" y="3.75" />
+              <point x="605.0" y="231.13334736251306" />
+              <point x="-93.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-aspects:jar:4.3.11.RELEASE" target="org.springframework:spring-aspects:jar:4.3.11.RELEASE/org.aspectj:aspectjweaver:jar:1.8.9">
+              <point x="63.5" y="-0.0" />
+              <point x="-60.5" y="-0.0" />
+            </edge>
+            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="30.5" y="-0.0" />
+              <point x="-62.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE">
+              <point x="64.5" y="-2.5" />
+              <point x="339.0" y="1371.994271417882" />
+              <point x="419.0" y="1356.119271417882" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final">
+              <point x="93.0" y="9.375" />
+              <point x="685.0" y="1085.994271417882" />
+              <point x="-113.0" y="7.5" />
+            </edge>
+            <edge source="kinoviewModules:webservlet:1.0" target="kinoviewModules:commonjdbc:jar:1.0">
+              <point x="50.0" y="-0.0" />
+              <point x="-56.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0" target="kinoviewModules:commonjdbc:jar:1.0/org.hsqldb:hsqldb:jar:2.4.0">
+              <point x="56.5" y="-4.5" />
+              <point x="339.0" y="644.6817714178819" />
+              <point x="419.0" y="437.38334736251306" />
+              <point x="-38.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="73.0" y="-0.0" />
+              <point x="1202.0" y="1449.619271417882" />
+              <point x="-53.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:webservlet:1.0" target="commons-httpclient:commons-httpclient:jar:3.1">
+              <point x="50.0" y="-10.909090909090878" />
+              <point x="-79.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final">
+              <point x="93.0" y="5.625" />
+              <point x="685.0" y="916.3695987654322" />
+              <point x="-62.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE/org.springframework:spring-tx:jar:5.0.0.RELEASE">
+              <point x="51.5" y="-11.25" />
+              <point x="605.0" y="496.13334736251306" />
+              <point x="685.0" y="416.4942714178819" />
+              <point x="-45.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final/org.jboss:jandex:jar:2.0.3.Final">
+              <point x="62.5" y="6.666666666666629" />
+              <point x="884.0" y="923.0362654320988" />
+              <point x="964.0" y="1008.4942714178819" />
+              <point x="-37.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:webservlet:1.0" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE">
+              <point x="50.0" y="5.454545454545496" />
+              <point x="180.0" y="1374.494271417882" />
+              <point x="-64.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final/com.fasterxml:classmate:jar:1.3.0">
+              <point x="62.5" y="-3.3333333333333712" />
+              <point x="884.0" y="913.0362654320988" />
+              <point x="964.0" y="887.4942714178819" />
+              <point x="-47.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:webservlet:1.0" target="org.mockito:mockito-all:jar:1.10.19">
+              <point x="50.0" y="2.727272727272748" />
+              <point x="180.0" y="953.7442714178819" />
+              <point x="-51.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final">
+              <point x="56.5" y="1.5" />
+              <point x="339.0" y="650.6817714178819" />
+              <point x="-93.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0" target="kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0/org.codehaus.mojo:animal-sniffer-annotations:jar:1.14">
+              <point x="35.5" y="-3.75" />
+              <point x="605.0" y="223.63334736251306" />
+              <point x="-99.5" y="-0.0" />
+            </edge>
+            <edge source="commons-httpclient:commons-httpclient:jar:3.1" target="commons-httpclient:commons-httpclient:jar:3.1/commons-logging:commons-logging:jar:1.0.4">
+              <point x="79.5" y="-7.5" />
+              <point x="419.0" y="85.0" />
+              <point x="-73.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.javassist:javassist:jar:3.20.0-GA">
+              <point x="93.0" y="1.875" />
+              <point x="685.0" y="809.9942714178819" />
+              <point x="-43.5" y="-7.5" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0" target="kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0">
+              <point x="56.5" y="-13.5" />
+              <point x="339.0" y="635.6817714178819" />
+              <point x="419.0" y="227.38334736251306" />
+              <point x="-35.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final">
+              <point x="62.5" y="-10.0" />
+              <point x="884.0" y="906.3695987654322" />
+              <point x="-119.0" y="7.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="52.0" y="-11.25" />
+              <point x="605.0" y="1344.869271417882" />
+              <point x="685.0" y="1327.3904320987656" />
+              <point x="-63.0" y="10.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.11.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.11.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="45.5" y="7.5" />
+              <point x="1202.0" y="1235.6404320987656" />
+              <point x="-53.0" y="-11.25" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
+              <point x="93.0" y="-13.125" />
+              <point x="685.0" y="651.9942714178819" />
+              <point x="1202.0" y="651.9942714178819" />
+              <point x="-59.5" y="-10.0" />
+            </edge>
+            <edge source="kinoviewModules:webservlet:1.0" target="javax.servlet:javax.servlet-api:jar:3.1.0">
+              <point x="50.0" y="-8.18181818181813" />
+              <point x="180.0" y="372.1817714178819" />
+              <point x="-67.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE/org.springframework:spring-jdbc:jar:5.0.0.RELEASE">
+              <point x="51.5" y="11.25" />
+              <point x="605.0" y="518.6333473625131" />
+              <point x="685.0" y="626.4942714178819" />
+              <point x="-52.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final">
+              <point x="93.0" y="-9.375" />
+              <point x="685.0" y="669.9942714178819" />
+              <point x="-82.0" y="-7.5" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE/org.springframework:spring-core:jar:5.0.0.RELEASE">
+              <point x="51.5" y="3.75" />
+              <point x="605.0" y="511.13334736251306" />
+              <point x="685.0" y="556.4942714178819" />
+              <point x="-53.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-core:jar:4.3.11.RELEASE">
+              <point x="52.5" y="10.0" />
+              <point x="605.0" y="1254.6404320987656" />
+              <point x="685.0" y="1262.3904320987656" />
+              <point x="-53.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:webservlet:1.0" target="javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1">
+              <point x="50.0" y="-2.727272727272748" />
+              <point x="-78.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0" target="kinoviewModules:commonjdbc:jar:1.0/org.apache.commons:commons-lang3:jar:3.0">
+              <point x="56.5" y="4.5" />
+              <point x="339.0" y="653.6817714178819" />
+              <point x="419.0" y="957.9317714178819" />
+              <point x="-67.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/dom4j:dom4j:jar:1.6.1">
+              <point x="93.0" y="13.125" />
+              <point x="685.0" y="1155.994271417882" />
+              <point x="-36.0" y="7.5" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE">
+              <point x="56.5" y="10.5" />
+              <point x="339.0" y="659.6817714178819" />
+              <point x="419.0" y="1244.6404320987656" />
+              <point x="-52.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0" target="kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0/com.google.code.findbugs:jsr305:jar:1.3.9">
+              <point x="35.5" y="-11.25" />
+              <point x="605.0" y="216.13334736251306" />
+              <point x="685.0" y="136.49427141788192" />
+              <point x="-36.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final">
+              <point x="62.5" y="10.0" />
+              <point x="884.0" y="926.3695987654322" />
+              <point x="-113.0" y="-7.5" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-context:jar:4.3.10.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.11.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="63.0" y="3.75" />
+              <point x="884.0" y="1321.1404320987656" />
+              <point x="964.0" y="1335.994271417882" />
+              <point x="1202.0" y="1335.994271417882" />
+              <point x="-53.0" y="3.75" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE">
+              <point x="56.5" y="-1.5" />
+              <point x="339.0" y="647.6817714178819" />
+              <point x="419.0" y="507.38334736251306" />
+              <point x="-51.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final">
+              <point x="62.5" y="-13.333333333333371" />
+              <point x="884.0" y="903.0362654320988" />
+              <point x="964.0" y="684.9942714178819" />
+              <point x="-82.0" y="7.5" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-orm:jar:5.0.0.RELEASE/org.springframework:spring-beans:jar:5.0.0.RELEASE">
+              <point x="51.5" y="-3.75" />
+              <point x="605.0" y="503.63334736251306" />
+              <point x="685.0" y="486.4942714178819" />
+              <point x="-58.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE">
+              <point x="64.5" y="7.5" />
+              <point x="339.0" y="1381.994271417882" />
+              <point x="419.0" y="1457.119271417882" />
+              <point x="-73.0" y="7.5" />
+            </edge>
+            <edge source="kinoviewModules:webservlet:1.0" target="junit:junit:jar:4.12">
+              <point x="50.0" y="-13.636363636363626" />
+              <point x="180.0" y="15.0" />
+              <point x="-30.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="52.0" y="3.75" />
+              <point x="605.0" y="1359.869271417882" />
+              <point x="685.0" y="1368.119271417882" />
+              <point x="1202.0" y="1368.119271417882" />
+              <point x="-53.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="64.5" y="2.5" />
+              <point x="339.0" y="1376.994271417882" />
+              <point x="419.0" y="1401.119271417882" />
+              <point x="-58.0" y="7.5" />
+            </edge>
+            <edge source="kinoviewModules:webservlet:1.0" target="org.aspectj:aspectjweaver:jar:1.8.10">
+              <point x="50.0" y="8.18181818181813" />
+              <point x="180.0" y="1444.494271417882" />
+              <point x="-60.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
+              <point x="119.0" y="-0.0" />
+              <point x="-59.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final">
+              <point x="93.0" y="-5.625" />
+              <point x="685.0" y="739.9942714178819" />
+              <point x="-119.0" y="-7.5" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0" target="kinoviewModules:commonjdbc:jar:1.0/com.google.guava:guava:jar:22.0/com.google.j2objc:j2objc-annotations:jar:1.1">
+              <point x="35.5" y="11.25" />
+              <point x="605.0" y="238.63334736251306" />
+              <point x="685.0" y="346.4942714178819" />
+              <point x="-75.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="64.5" y="-12.5" />
+              <point x="339.0" y="1361.994271417882" />
+              <point x="419.0" y="1288.7654320987656" />
+              <point x="884.0" y="1288.7654320987656" />
+              <point x="964.0" y="1285.6404320987656" />
+              <point x="-51.0" y="-10.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="63.0" y="-3.75" />
+              <point x="884.0" y="1313.6404320987656" />
+              <point x="964.0" y="1295.6404320987656" />
+              <point x="-51.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0" target="kinoviewModules:commonjdbc:jar:1.0/log4j:log4j:jar:1.2.17">
+              <point x="56.5" y="-10.5" />
+              <point x="339.0" y="638.6817714178819" />
+              <point x="419.0" y="297.38334736251306" />
+              <point x="-32.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE">
+              <point x="63.0" y="11.25" />
+              <point x="884.0" y="1328.6404320987656" />
+              <point x="964.0" y="1442.119271417882" />
+              <point x="-73.0" y="-7.5" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.11.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.11.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="45.5" y="-7.5" />
+              <point x="1202.0" y="1220.6404320987656" />
+              <point x="-58.0" y="-10.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/net.bytebuddy:byte-buddy:jar:1.6.14">
+              <point x="93.0" y="-1.875" />
+              <point x="685.0" y="774.9942714178819" />
+              <point x="-53.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="64.5" y="-7.5" />
+              <point x="339.0" y="1366.994271417882" />
+              <point x="419.0" y="1317.3904320987656" />
+              <point x="-63.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/dom4j:dom4j:jar:1.6.1">
+              <point x="62.5" y="13.333333333333371" />
+              <point x="884.0" y="929.7029320987656" />
+              <point x="964.0" y="1140.994271417882" />
+              <point x="-36.0" y="-7.5" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
+              <point x="62.5" y="-0.0" />
+              <point x="884.0" y="916.3695987654322" />
+              <point x="964.0" y="912.9942714178819" />
+              <point x="1202.0" y="912.9942714178819" />
+              <point x="-59.5" y="10.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0" target="kinoviewModules:commonjdbc:jar:1.0/mysql:mysql-connector-java:jar:6.0.6">
+              <point x="56.5" y="-7.5" />
+              <point x="339.0" y="641.6817714178819" />
+              <point x="-84.5" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-context:jar:4.3.10.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.11.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="63.0" y="-11.25" />
+              <point x="884.0" y="1306.1404320987656" />
+              <point x="964.0" y="1264.494271417882" />
+              <point x="1202.0" y="1264.494271417882" />
+              <point x="-58.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.11.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="51.0" y="7.5" />
+              <point x="1202.0" y="1303.1404320987656" />
+              <point x="-53.0" y="-3.75" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.javassist:javassist:jar:3.20.0-GA">
+              <point x="62.5" y="-6.666666666666629" />
+              <point x="884.0" y="909.7029320987656" />
+              <point x="964.0" y="824.9942714178819" />
+              <point x="-43.5" y="7.5" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0" target="kinoviewModules:commonjdbc:jar:1.0/org.jsoup:jsoup:jar:1.10.3">
+              <point x="56.5" y="7.5" />
+              <point x="339.0" y="656.6817714178819" />
+              <point x="419.0" y="1027.931771417882" />
+              <point x="-34.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final" target="kinoviewModules:commonjdbc:jar:1.0/org.hibernate:hibernate-entitymanager:jar:5.2.11.Final/org.hibernate:hibernate-core:jar:5.2.11.Final/antlr:antlr:jar:2.7.7">
+              <point x="62.5" y="3.3333333333333712" />
+              <point x="884.0" y="919.7029320987656" />
+              <point x="964.0" y="938.4942714178819" />
+              <point x="-31.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="52.0" y="-3.75" />
+              <point x="605.0" y="1352.369271417882" />
+              <point x="685.0" y="1342.8904320987656" />
+              <point x="884.0" y="1342.8904320987656" />
+              <point x="964.0" y="1305.6404320987656" />
+              <point x="-51.0" y="10.0" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="56.5" y="13.5" />
+              <point x="339.0" y="662.6817714178819" />
+              <point x="419.0" y="1270.1404320987656" />
+              <point x="605.0" y="1270.1404320987656" />
+              <point x="685.0" y="1307.3904320987656" />
+              <point x="-63.0" y="-10.0" />
+            </edge>
+            <edge source="kinoviewModules:webservlet:1.0" target="com.fasterxml.jackson.core:jackson-core:jar:2.9.1">
+              <point x="50.0" y="13.636363636363626" />
+              <point x="180.0" y="1591.3125" />
+              <point x="-57.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.11.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="51.0" y="-7.5" />
+              <point x="1202.0" y="1288.1404320987656" />
+              <point x="-58.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2">
+              <point x="53.0" y="-0.0" />
+              <point x="-73.0" y="-0.0" />
+            </edge>
+            <edge source="kinoviewModules:webservlet:1.0" target="org.springframework:spring-aspects:jar:4.3.11.RELEASE">
+              <point x="50.0" y="10.909090909090878" />
+              <point x="180.0" y="1521.3125" />
+              <point x="-63.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.11.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="58.0" y="-0.0" />
+              <point x="884.0" y="1393.619271417882" />
+              <point x="964.0" y="1343.494271417882" />
+              <point x="1202.0" y="1343.494271417882" />
+              <point x="-53.0" y="11.25" />
+            </edge>
+            <edge source="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE" target="kinoviewModules:commonjdbc:jar:1.0/org.springframework:spring-jdbc:jar:4.3.11.RELEASE/org.springframework:spring-beans:jar:4.3.11.RELEASE">
+              <point x="52.5" y="-10.0" />
+              <point x="605.0" y="1234.6404320987656" />
+              <point x="685.0" y="1196.8904320987656" />
+              <point x="-58.0" y="-0.0" />
+            </edge>
+            <edge source="commons-httpclient:commons-httpclient:jar:3.1" target="commons-httpclient:commons-httpclient:jar:3.1/commons-codec:commons-codec:jar:1.2">
+              <point x="79.5" y="7.5" />
+              <point x="419.0" y="155.0" />
+              <point x="-68.5" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="442.0" y="1333.0" />
+          <SelectedNodes>
+            <node>com.fasterxml.jackson.core:jackson-core:jar:2.9.1</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/FilmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar!/org/springframework/context/annotation/ImportResource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/JsonViewResolver.java" />
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/Jconfig.java" />
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/AppInitializer.java" />
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/web/filter/AuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/com/fasterxml/jackson/annotation/JsonView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/View.java" />
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/JavaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservlet/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="98" column="21" lean-forward="false" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="127" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/StringResponse.java" />
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/GenreDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="108" column="23" lean-forward="false" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/CountryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="46" column="57" lean-forward="false" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="149" column="20" lean-forward="false" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/CountryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservlet/src/test/java/webservlet/controller/GenreControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="62" column="72" lean-forward="false" selection-start-line="62" selection-start-column="72" selection-end-line="62" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservlet/src/test/java/webservlet/controller/CountryControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="67" column="78" lean-forward="false" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/GenreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/MainService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/CountryDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/UserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/GenreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/FilmDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="88" column="22" lean-forward="false" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/GenreDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/service/FilmService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3030">
+          <caret line="221" column="25" lean-forward="false" selection-start-line="221" selection-start-column="25" selection-end-line="221" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/CountryDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="60" column="42" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/GenreDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/UserDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1b234cec/946a71b7-c15b-47ff-8d7b-aaab572ee40d/kino_view.films">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/dao/FilmDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="84" column="11" lean-forward="false" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/TaskManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/GenreServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="77" column="16" lean-forward="false" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/FilmServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/test/java/kinoview/commonjdbc/service/CountryServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="76" column="18" lean-forward="false" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/dto/FilmDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="18" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="60" column="30" lean-forward="false" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/entity/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webservlet/src/main/resources/webservlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/java/kinoview/commonjdbc/dao/Test.java">
+    <entry file="file://$PROJECT_DIR$/commonjdbc/src/main/resources/local.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservlet/src/main/java/kinoview/webservlet/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="89" column="93" lean-forward="true" selection-start-line="89" selection-start-column="93" selection-end-line="89" selection-end-column="93" />
           <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1693,7 +2432,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>webservlet:war</last-edited>
+          <last-edited>webservlet:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

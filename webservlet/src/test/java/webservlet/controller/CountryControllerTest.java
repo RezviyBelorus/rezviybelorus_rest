@@ -1,6 +1,7 @@
 package webservlet.controller;
 
 import kinoview.commonjdbc.entity.Country;
+import kinoview.commonjdbc.entity.dto.CountryDTO;
 import kinoview.webservlet.controller.CountryController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -31,8 +32,9 @@ public class CountryControllerTest {
         //given
         Country country = new Country();
         country.setCountryName("testCountry");
+        CountryDTO countryDTO = new CountryDTO(country);
 
-        Mockito.when(countryService.addCountry("testCountry")).thenReturn(country);
+        Mockito.when(countryService.addCountry("testCountry")).thenReturn(countryDTO);
 
         //when
         ModelAndView actual = countryController.add("testCountry");
@@ -61,8 +63,9 @@ public class CountryControllerTest {
         //given
         Country country = new Country();
         country.setCountryName("testCountry");
+        CountryDTO countryDTO = new CountryDTO(country);
 
-        Mockito.when(countryService.find("testCountry")).thenReturn(country);
+        Mockito.when(countryService.find("testCountry")).thenReturn(countryDTO);
 
         //when
         ModelAndView actual = countryController.find("testCountry");

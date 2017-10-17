@@ -1,21 +1,39 @@
 package kinoview.commonjdbc.entity;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
  * Created by alexfomin on 30.06.17.
  */
+@Entity
+@Table(name = "users")
 public class User implements Serializable {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "user_id")
     private int id;
+
+    @Column(name = "login")
     private String login;
+
+    @Column(name = "password")
     private String password;
 
+    @Column(name = "f_name")
     private String fName;
+
+    @Column(name = "l_name")
     private String lName;
 
+    @Column(name = "email")
     private String email;
+
+    @Column(name = "status")
     private int status;
+
+    @Column(name = "create_date")
     private LocalDateTime createDate;
 
     public LocalDateTime getCreateDate() {

@@ -1,6 +1,7 @@
 package kinoview.webservlet.controller;
 
 import kinoview.commonjdbc.entity.Country;
+import kinoview.commonjdbc.entity.dto.CountryDTO;
 import kinoview.commonjdbc.service.CountryService;
 import kinoview.webservlet.web.View;
 
@@ -26,7 +27,7 @@ public class CountryController{
     @RequestMapping(method = POST, path = "/add")
     public ModelAndView add(@RequestParam String countryName) {
         ModelAndView view = new ModelAndView(View.COUNTRY.getName());
-        Country country = countryService.addCountry(countryName);
+        CountryDTO country = countryService.addCountry(countryName);
         view.addObject("country", country);
 
         return view;
@@ -44,7 +45,7 @@ public class CountryController{
     @RequestMapping(method = GET, path = "/find")
     public ModelAndView find(@RequestParam String countryName){
         ModelAndView view = new ModelAndView(View.COUNTRY.getName());
-        Country country = countryService.find(countryName);
+        CountryDTO country = countryService.find(countryName);
         view.addObject("country", country);
 
         return view;

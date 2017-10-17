@@ -1,28 +1,56 @@
 package kinoview.commonjdbc.entity.dto;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import kinoview.commonjdbc.entity.Country;
 import kinoview.commonjdbc.entity.Film;
+import kinoview.commonjdbc.entity.Genre;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * Created by alexfomin on 05.07.17.
  */
-public class FilmDTO {
+
+@JsonInclude(JsonInclude.Include.NON_EMPTY)
+public class FilmDTO implements Serializable {
+    @JsonProperty
     private int id;
+    @JsonProperty
     private String name;
+    @JsonProperty
     private int releaseYear;
+    @JsonProperty
     private String quality;
+    @JsonProperty
     private String translation;
+    @JsonProperty
     private String duration;
+    @JsonProperty
     private float rating;
+    @JsonProperty
     private LocalDateTime uploadDate;
+    @JsonProperty
     private int status;
 
-    private List<String> genres = new ArrayList<>();
-    private List<String> countries = new ArrayList<>();
+    @JsonProperty
+    private Set<GenreDTO> allGenres = new HashSet<>();
+    @JsonProperty
+    private Set<CountryDTO> allCountries = new HashSet<>();
+    @JsonProperty
+    private List<FilmDTO> films;
+    @JsonProperty
+    private List<FilmDTO> thumbnails;
+    @JsonProperty
+    private Map<String, Object> pagination;
 
+    public FilmDTO() {
+    }
 
     public FilmDTO(Film film) {
         this.id = film.getId();
@@ -34,9 +62,17 @@ public class FilmDTO {
         this.rating = film.getRating();
         this.uploadDate = film.getUploadDate();
         this.status = film.getStatus();
-        this.genres = film.getGenres();
-        this.countries = film.getCountries();
+        film.getGenres().forEach(genre -> allGenres.add(new GenreDTO(genre)));
+        film.getCountries().forEach(country -> allCountries.add(new CountryDTO(country)));
     }
+
+    public FilmDTO(List<FilmDTO> rangeOfFilms, List<FilmDTO> thumbnails, Set<GenreDTO> allGenres, Map<String, Object> pagination) {
+        this.films = rangeOfFilms;
+        this.thumbnails = thumbnails;
+        this.allGenres = allGenres;
+        this.pagination = pagination;
+    }
+
 
     public LocalDateTime getUploadDate() {
         return uploadDate;
@@ -88,16 +124,16 @@ public class FilmDTO {
         this.status = status;
     }
 
-    public List<String> getCountries() {
-        return countries;
+    public Set<CountryDTO> getAllCountries() {
+        return allCountries;
     }
 
-    public void setCountries(List<String> countries) {
-        this.countries = countries;
+    public void setAllCountries(Set<CountryDTO> allCountries) {
+        this.allCountries = allCountries;
     }
 
-    public List<String> getGenres() {
-        return genres;
+    public Set<GenreDTO> getAllGenres() {
+        return allGenres;
     }
 
     public String getQuality() {
@@ -124,7 +160,31 @@ public class FilmDTO {
         this.duration = duration;
     }
 
-    public void setGenres(List<String> genres) {
-        this.genres = genres;
+    public void setAllGenres(Set<GenreDTO> allGenres) {
+        this.allGenres = allGenres;
+    }
+
+    public List<FilmDTO> getFilms() {
+        return films;
+    }
+
+    public void setFilms(List<FilmDTO> films) {
+        this.films = films;
+    }
+
+    public List<FilmDTO> getThumbnails() {
+        return thumbnails;
+    }
+
+    public void setThumbnails(List<FilmDTO> thumbnails) {
+        this.thumbnails = thumbnails;
+    }
+
+    public Map<String, Object> getPagination() {
+        return pagination;
+    }
+
+    public void setPagination(Map<String, Object> pagination) {
+        this.pagination = pagination;
     }
 }

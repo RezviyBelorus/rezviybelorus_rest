@@ -36,23 +36,22 @@ public class UserService {
         return null;
     }
 
-    //todo: у ДАО два разных. две переменные юзер - я оставил как есть
     @Transactional
     public UserDTO save(String login, String password, String f_name, String l_name, String email) {
         User user = userDAO.find(email);
         User user1 = userDAO.find(login);
 
         if (user == null && user1 == null) {
-            User dto = new User();
-            dto.setLogin(login);
-            dto.setPassword(password);
-            dto.setfName(f_name);
-            dto.setlName(l_name);
-            dto.setLogin(login);
-            dto.setEmail(email);
-            dto.setStatus(1);
-            dto.setCreateDate(LocalDateTime.now());
-            userDAO.save(dto);
+            User userToSave = new User();
+            userToSave.setLogin(login);
+            userToSave.setPassword(password);
+            userToSave.setfName(f_name);
+            userToSave.setlName(l_name);
+            userToSave.setLogin(login);
+            userToSave.setEmail(email);
+            userToSave.setStatus(1);
+            userToSave.setCreateDate(LocalDateTime.now());
+            userDAO.save(userToSave);
 
             user = userDAO.find(email);
 

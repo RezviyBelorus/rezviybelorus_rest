@@ -12,22 +12,19 @@ import kinoview.commonjdbc.exception.IllegalRequestException;
 import kinoview.commonjdbc.util.Validator;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 
 /**
  * Created by alexfomin on 05.07.17.
  */
 @Service
+@Transactional
 public class FilmService {
     private static final Logger logger = Logger.getLogger(FilmService.class);
     @Autowired
@@ -61,18 +58,44 @@ public class FilmService {
             film.setWatchLink(watchLink);
             film.setShortStory(shortStory);
             film.setKinogoPage(kinogoPage);
+            film.setGenres(createGenresSet(genres));
+            film.setCountries(createCountriesSet(countries));
             filmDAO.save(film);
-
-            String[] byGenre = genres.split(", ");
-            String[] byCountry = countries.split(", ");
-
-            saveGenres(filmName, Arrays.asList(byGenre));
-            saveCountries(filmName, Arrays.asList(byCountry));
 
             film = filmDAO.find(filmName);
             return new FilmDTO(film);
         }
         return null;
+    }
+
+    private Set<Country> createCountriesSet(String countries) {
+        String[] countriesArray = countries.split(",");
+        Set<Country> countrySet = new HashSet<>();
+        for (String countryName : countriesArray) {
+            Country country = new Country();
+            country.setCountryName(countryName);
+            countrySet.add(country);
+        }
+        Set<Country> allCountries = countryDAO.findAllCountries();
+        allCountries.retainAll(countrySet);
+        allCountries.addAll(countrySet);
+        countrySet = allCountries;
+        return countrySet;
+    }
+
+    private Set<Genre> createGenresSet(String genres) {
+        String[] genresArray = genres.split(",");
+        Set<Genre> genresSet = new HashSet<>();
+        for (String genreName : genresArray) {
+            Genre genre = new Genre();
+            genre.setGenreName(genreName);
+            genresSet.add(genre);
+        }
+        Set<Genre> allGenres = genreDAO.findAllGenres();
+        allGenres.retainAll(genresSet);
+        allGenres.addAll(genresSet);
+        genresSet = allGenres;
+        return genresSet;
     }
 
     @Transactional
@@ -81,11 +104,22 @@ public class FilmService {
         filmsToSave.addAll(films);
         List<Film> filmsInDB = filmDAO.findLoadedFilms();
         filmsToSave.removeAll(filmsInDB);
-        boolean isSaved = filmDAO.saveBatch(filmsToSave);
-        for (Film film : filmsToSave) {
-            saveGenres(film.getName(), film.getGenres());
-            saveCountries(film.getName(), film.getCountries());
-        }
+        boolean isSaved = false;
+
+        filmsToSave.forEach(film -> {
+            Set<Country> allCountries = countryDAO.findAllCountries();
+            allCountries.retainAll(film.getCountries());
+            allCountries.addAll(film.getCountries());
+            film.setCountries(allCountries);
+
+            Set<Genre> allGenres = genreDAO.findAllGenres();
+            allGenres.retainAll(film.getGenres());
+            allGenres.addAll(film.getGenres());
+            film.setGenres(allGenres);
+            filmDAO.save(film);
+        });
+
+        isSaved = true;
         if (isSaved) {
             return filmsToSave;
         }
@@ -101,8 +135,6 @@ public class FilmService {
         }
         Film updatedFilm = filmDAO.find(film.getName());
         if (updatedFilm.getName() != null) {
-            updatedFilm.setCountries(findCountries(updatedFilm.getId()));
-            updatedFilm.setGenres(findGenres(updatedFilm.getId()));
             return new FilmDTO(updatedFilm);
         }
         logger.error("Can't update film");
@@ -110,32 +142,58 @@ public class FilmService {
     }
 
     @Transactional
-    public List<Film> updateBatchFilms(List<Film> films) {
+    public List<FilmDTO> updateBatchFilms(List<Film> films) {
         List<Film> filmsToUpdate = new ArrayList<>();
         List<Film> filmsInDB = filmDAO.findLoadedFilms();
+        List<FilmDTO> filmsDTO = new ArrayList<>();
 
         if (filmsInDB.size() == 0) {
-            return filmsToUpdate;
+            filmsToUpdate.forEach(film -> filmsDTO.add(new FilmDTO(film)));
+            return filmsDTO;
         }
         for (Film potentialToUpdateFilm : films) {
             for (Film filmInDB : filmsInDB) {
                 if (potentialToUpdateFilm.equals(filmInDB)
                         && potentialToUpdateFilm.getKinogoPage() < filmInDB.getKinogoPage()) {
+                    potentialToUpdateFilm.setId(filmInDB.getId());
                     filmsToUpdate.add(potentialToUpdateFilm);
                 }
             }
         }
+        updateCountries(filmsToUpdate);
+        updateGenres(filmsToUpdate);
         filmDAO.updateBatchFilms(filmsToUpdate);
         List<Film> updatedFilms = new ArrayList<>();
         filmsToUpdate.forEach(film -> {
             Film updatedFilm = filmDAO.find(film.getName());
             if (updatedFilm.getName() != null) {
-                updatedFilm.setCountries(findCountries(updatedFilm.getId()));
-                updatedFilm.setGenres(findGenres(updatedFilm.getId()));
-                updatedFilms.add(updatedFilm);
+//                updatedFilms.add(updatedFilm);
+                filmsDTO.add(new FilmDTO(updatedFilm));
             }
         });
-        return updatedFilms;
+        return filmsDTO;
+    }
+
+    private void updateGenres(List<Film> filmsToUpdate) {
+        Set<Genre> allGenres = genreDAO.findAllGenres();
+        filmsToUpdate.forEach(film -> {
+            Set<Genre> updatingGenres = new HashSet<>();
+            updatingGenres.addAll(allGenres);
+            updatingGenres.retainAll(film.getGenres());
+            updatingGenres.addAll(film.getGenres());
+            film.setGenres(updatingGenres);
+        });
+    }
+
+    private void updateCountries(List<Film> filmsToUpdate) {
+        Set<Country> allCountries = countryDAO.findAllCountries();
+        filmsToUpdate.forEach(film -> {
+            Set<Country> updatingCountries = new HashSet<>();
+            updatingCountries.addAll(allCountries);
+            updatingCountries.retainAll(film.getCountries());
+            updatingCountries.addAll(film.getCountries());
+            film.setCountries(updatingCountries);
+        });
     }
 
     @Transactional
@@ -152,9 +210,6 @@ public class FilmService {
         Film film = filmDAO.find(filmName);
         if (film.getStatus() == FilmStatus.ACTIVE.getValue()) {
 
-            film.setGenres(findGenres(film.getId()));
-            film.setCountries(findCountries(film.getId()));
-
             return new FilmDTO(film);
         }
         return null;
@@ -164,29 +219,27 @@ public class FilmService {
         return filmDAO.countFilmsInDB();
     }
 
-    public List<Film> findRange(int offset, int limit) {
+    public List<FilmDTO> findRange(int offset, int limit) {
         List<Film> rangeOfFilms = filmDAO.findRange(offset, limit);
-        rangeOfFilms.forEach(film -> {
-                    film.setGenres(findGenres(film.getId()));
-                    film.setCountries(findCountries(film.getId()));
-                });
-        return rangeOfFilms;
+        List<FilmDTO> rangeOfFilmsDTO = new ArrayList<>();
+        rangeOfFilms.forEach(film -> rangeOfFilmsDTO.add(new FilmDTO(film)));
+        return rangeOfFilmsDTO;
     }
 
-    public List<Film> findLoadedFilms() {
+    public List<FilmDTO> findLoadedFilms() {
         List<Film> loadedFilms = filmDAO.findLoadedFilms();
-        for (Film loadedFilm : loadedFilms) {
-            loadedFilm.setGenres(findGenres(loadedFilm.getId()));
-            loadedFilm.setCountries(findCountries(loadedFilm.getId()));
-        }
-        return loadedFilms;
+        List<FilmDTO> loadedFilmsDTO = new ArrayList<>();
+        loadedFilms.forEach(film -> loadedFilmsDTO.add(new FilmDTO(film)));
+        return loadedFilmsDTO;
     }
 
-    public List<String> findGenres(int filmId) {
+    //todo: Set<Genre>
+    public Set<String> findGenres(int filmId) {
         return genreDAO.findAllByFilm(filmId);
     }
 
-    public List<String> findCountries(int filmId) {
+    //todo: Set<Country>
+    public Set<String> findCountries(int filmId) {
         return countryDAO.findAllByFilm(filmId);
     }
 
@@ -219,47 +272,16 @@ public class FilmService {
         return false;
     }
 
-    private boolean saveGenres(String filmName, List<String> filmGenres) {
-        Film film = filmDAO.find(filmName);
-        int filmId = film.getId();
-
-        List<Integer> genresId = new ArrayList<>();
-        List<Genre> allGenres = genreDAO.findAllGenres();
-        for (String filmGenre : filmGenres) {
-            for (Genre genreInDB : allGenres) {
-                if (filmGenre.equals(genreInDB.getGenreName())) {
-                    genresId.add(genreInDB.getGenreId());
-                }
-            }
-        }
-
-        return genreDAO.saveFilmToGenre(filmId, genresId);
-    }
-
-    private boolean saveCountries(String filmName, List<String> countries) {
-        int filmId = filmDAO.find(filmName).getId();
-        List<Integer> countriesId = new ArrayList<>();
-        List<Country> allCountries = countryDAO.findAllCountries();
-        for (String country : countries) {
-            for (Country countryInDB : allCountries) {
-                if (country.equals(countryInDB.getCountryName())) {
-                    countriesId.add(countryInDB.getCountryId());
-                }
-            }
-        }
-        return countryDAO.saveFilmToCountries(filmId, countriesId);
-    }
-
-    public List<Film> getThumbnails(int countOfFilms, int thumbNailsNumber) {
+    public List<FilmDTO> getThumbnails(int countOfFilms, int thumbNailsNumber) {
         Random random = new Random();
         int min = 1;
-        int max = countOfFilms-thumbNailsNumber;
-        int i = min + random.nextInt(max-min);
+        int max = countOfFilms - thumbNailsNumber;
+        int i = min + random.nextInt(max - min);
         return findRange(i, thumbNailsNumber);
     }
 
-    public List<Film> getFilms(int page, int filmsPerPage){
-        int offset = page*filmsPerPage-filmsPerPage;
+    public List<FilmDTO> getFilms(int page, int filmsPerPage) {
+        int offset = page * filmsPerPage - filmsPerPage;
         return findRange(offset, filmsPerPage);
     }
 }
