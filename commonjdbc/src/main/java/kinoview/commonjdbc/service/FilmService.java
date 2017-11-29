@@ -7,7 +7,9 @@ import kinoview.commonjdbc.dao.UserDAO;
 import kinoview.commonjdbc.entity.Country;
 import kinoview.commonjdbc.entity.Film;
 import kinoview.commonjdbc.entity.Genre;
+import kinoview.commonjdbc.entity.dto.CountryDTO;
 import kinoview.commonjdbc.entity.dto.FilmDTO;
+import kinoview.commonjdbc.entity.dto.GenreDTO;
 import kinoview.commonjdbc.exception.IllegalRequestException;
 import kinoview.commonjdbc.util.Validator;
 import org.apache.log4j.Logger;
@@ -35,6 +37,12 @@ public class FilmService {
 
     @Autowired
     private GenreDAO genreDAO;
+
+    @Autowired
+    GenreService genreService;
+
+    @Autowired
+    CountryService countryService;
 
     @Autowired
     private CountryDAO countryDAO;
@@ -283,5 +291,95 @@ public class FilmService {
     public List<FilmDTO> getFilms(int page, int filmsPerPage) {
         int offset = page * filmsPerPage - filmsPerPage;
         return findRange(offset, filmsPerPage);
+    }
+
+    public List<FilmDTO> findByGenre(String genreName, int page, int filmsPerpage) {
+        int offset = (page - 1) * filmsPerpage;
+        GenreDTO genreDTO = genreService.find(genreName);
+        List<FilmDTO> filmDTOList = new ArrayList<>();
+        List<Integer> filmIdByGenreLimit = filmDAO.findFilmsIdByGenreLimit(genreDTO.getGenreId(), offset, filmsPerpage);
+        filmIdByGenreLimit.forEach(id -> {
+            Film film = filmDAO.find(id);
+            filmDTOList.add(new FilmDTO(film));
+        });
+        return filmDTOList;
+    }
+
+    public List<FilmDTO> findByCountry(String countryName, int page, int filmsPerPage) {
+        int offset = (page - 1) * filmsPerPage;
+        CountryDTO countryDTO = countryService.find(countryName);
+        List<Integer> filmsIdByCountry = filmDAO.findFilmsIdByCountryLimit(countryDTO.getCountryId(), offset, filmsPerPage);
+        List<FilmDTO> filmDTOList = new ArrayList<>();
+        filmsIdByCountry.forEach(id -> {
+            Film film = filmDAO.find(id);
+            filmDTOList.add(new FilmDTO(film));
+        });
+        return filmDTOList;
+    }
+
+    public List<FilmDTO> findFilmsByQuality(String quality, int page, int filmsPerPage) {
+        int offset = (page - 1) * filmsPerPage;
+        List<Film> filmsByQuality = filmDAO.findFilmsByQuality(quality, offset, filmsPerPage);
+        List<FilmDTO> filmDTOList = new ArrayList<>();
+        filmsByQuality.forEach(film->{
+            filmDTOList.add(new FilmDTO(film));
+        });
+        return filmDTOList;
+    }
+
+    public List<FilmDTO> findFilmsByTranslation(String translation, int page, int filmsPerPage) {
+        int offset = page - 1 * filmsPerPage;
+        List<Film> filmsByTranslation = filmDAO.findFilmsByTranslation(translation, offset, filmsPerPage);
+        List<FilmDTO> filmDTOList = new ArrayList<>();
+        filmsByTranslation.forEach(film->{
+            filmDTOList.add(new FilmDTO(film));
+        });
+        return filmDTOList;
+    }
+
+    public List<FilmDTO> findFilmsByReleaseYear(int releaseYear, int page, int filmsPerPage) {
+        int offset = page - 1 * filmsPerPage;
+        List<Film> filmsByReleaseYear = filmDAO.findFilmsByReleaseYear(releaseYear, offset, filmsPerPage);
+        List<FilmDTO> filmDTOList = new ArrayList<>();
+        filmsByReleaseYear.forEach(film->{
+            filmDTOList.add(new FilmDTO(film));
+        });
+        return filmDTOList;
+    }
+
+    public List<FilmDTO> findFilmsByNameLike(String nameLike, int page, int filmsPerPage) {
+        int offset = page - 1 * filmsPerPage;
+        List<Film> filmsByNameLike = filmDAO.findFilmsByNameLike(nameLike, offset, filmsPerPage);
+        List<FilmDTO> filmDTOList = new ArrayList<>();
+        filmsByNameLike.forEach(film->{
+            filmDTOList.add(new FilmDTO(film));
+        });
+        return filmDTOList;
+    }
+
+    public int countFilmByGenre(String genreName) {
+        GenreDTO genreDTO = genreService.find(genreName);
+        return genreService.countOfFilmsByGenre(genreDTO.getGenreId());
+    }
+
+    public int countFilmsByCountry(String countryName) {
+        CountryDTO countryDTO = countryService.find(countryName);
+        return countryService.countOfFilmsByCountry(countryDTO.getCountryId());
+    }
+
+    public int countFilmsByQuality(String quality) {
+        return filmDAO.countFilmsByQuality(quality);
+    }
+
+    public int countFilmsByTranslation(String translation) {
+        return filmDAO.countFilmsByTranslation(translation);
+    }
+
+    public int countFilmsByReleaseYear(int releaseYear) {
+        return filmDAO.countFilmsByReleaseYear(releaseYear);
+    }
+
+    public int countFilmsByNameLike(String nameLike) {
+        return filmDAO.countFilmsByNameLike(nameLike);
     }
 }

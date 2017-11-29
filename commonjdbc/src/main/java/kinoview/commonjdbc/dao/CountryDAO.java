@@ -2,6 +2,7 @@ package kinoview.commonjdbc.dao;
 
 import kinoview.commonjdbc.entity.Country;
 import kinoview.commonjdbc.exception.IllegalRequestException;
+import kinoview.commonjdbc.util.JDBCFactory;
 import org.apache.log4j.Logger;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,7 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Repository;
 
+import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -49,6 +51,8 @@ public class CountryDAO extends AbstractDAO {
 
     private String SELECT_ALL_COUNTRIES_QUERY = "SELECT country_id, country_name FROM countries";
 
+    private String SELECT_COUNT_FILMS_BY_COUNTRY_QUERY = "SELECT COUNT(f.film_id) FROM films_to_countries f WHERE f.country_id=?";
+
     public boolean save(Country country) {
         sessionFactory.getCurrentSession().saveOrUpdate(country);
         return true;
@@ -82,15 +86,20 @@ public class CountryDAO extends AbstractDAO {
     }
 
     public Country find(String countryName) {
-        return template.queryForObject(SELECT_COUNTRY_BY_NAME_QUERY, new RowMapper<Country>() {
-            @Override
-            public Country mapRow(ResultSet rs, int i) throws SQLException {
-                Country country = new Country();
+        Country country = new Country();
+        try (Connection connection = JDBCFactory.createConnection()) {
+            PreparedStatement prs = connection.prepareStatement(SELECT_COUNTRY_BY_NAME_QUERY);
+            prs.setString(1, countryName);
+            ResultSet rs = prs.executeQuery();
+
+            while (rs.next()) {
                 country.setCountryId(rs.getInt(1));
                 country.setCountryName(rs.getString(2));
-                return country;
             }
-        }, countryName);
+        } catch (SQLException e) {
+            //NOP
+        }
+        return country;
     }
 
     public Set<Country> findAllCountries() {
@@ -112,5 +121,20 @@ public class CountryDAO extends AbstractDAO {
             countriesNames.add(rs.getString(1));
         }
         return countriesNames;
+    }
+
+    public int countFilmsByCountry(int countryId) {
+        int count = 0;
+        try (Connection connection = JDBCFactory.createConnection()) {
+            PreparedStatement prs = connection.prepareStatement(SELECT_COUNT_FILMS_BY_COUNTRY_QUERY);
+            prs.setInt(1, countryId);
+            ResultSet rs = prs.executeQuery();
+            while (rs.next()) {
+                count = rs.getInt(1);
+            }
+        } catch (SQLException e) {
+            //NOP
+        }
+        return count;
     }
 }

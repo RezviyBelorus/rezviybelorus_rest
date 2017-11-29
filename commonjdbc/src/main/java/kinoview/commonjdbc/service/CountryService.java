@@ -43,6 +43,10 @@ public class CountryService {
         return new CountryDTO(countryDAO.find(countryName));
     }
 
+    public int countOfFilmsByCountry(int countryId) {
+        return countryDAO.countFilmsByCountry(countryId);
+    }
+
     public CountryDTO find(int countryId){
         return new CountryDTO(countryDAO.find(countryId));
     }

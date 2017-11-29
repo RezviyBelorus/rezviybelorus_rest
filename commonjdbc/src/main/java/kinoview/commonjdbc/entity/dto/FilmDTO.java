@@ -17,36 +17,42 @@ import java.util.Set;
  * Created by alexfomin on 05.07.17.
  */
 
-@JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class FilmDTO implements Serializable {
-    @JsonProperty
+
     private int id;
-    @JsonProperty
+
     private String name;
-    @JsonProperty
+
     private int releaseYear;
-    @JsonProperty
+
     private String quality;
-    @JsonProperty
+
     private String translation;
-    @JsonProperty
+
     private String duration;
-    @JsonProperty
+
     private float rating;
-    @JsonProperty
+
     private LocalDateTime uploadDate;
-    @JsonProperty
+
     private int status;
 
-    @JsonProperty
+    private String imgLink;
+
+    private String watchLink;
+
+    private String shortStory;
+
+    private int kinogoPage;
+
     private Set<GenreDTO> allGenres = new HashSet<>();
-    @JsonProperty
+
     private Set<CountryDTO> allCountries = new HashSet<>();
-    @JsonProperty
+
     private List<FilmDTO> films;
-    @JsonProperty
+
     private List<FilmDTO> thumbnails;
-    @JsonProperty
+
     private Map<String, Object> pagination;
 
     public FilmDTO() {
@@ -62,6 +68,11 @@ public class FilmDTO implements Serializable {
         this.rating = film.getRating();
         this.uploadDate = film.getUploadDate();
         this.status = film.getStatus();
+        this.imgLink = film.getImgLink();
+        this.watchLink = film.getWatchLink();
+        this.shortStory = film.getShortStory();
+        this.kinogoPage = film.getKinogoPage();
+
         film.getGenres().forEach(genre -> allGenres.add(new GenreDTO(genre)));
         film.getCountries().forEach(country -> allCountries.add(new CountryDTO(country)));
     }
@@ -186,5 +197,37 @@ public class FilmDTO implements Serializable {
 
     public void setPagination(Map<String, Object> pagination) {
         this.pagination = pagination;
+    }
+
+    public String getImgLink() {
+        return imgLink;
+    }
+
+    public void setImgLink(String imgLink) {
+        this.imgLink = imgLink;
+    }
+
+    public String getWatchLink() {
+        return watchLink;
+    }
+
+    public void setWatchLink(String watchLink) {
+        this.watchLink = watchLink;
+    }
+
+    public String getShortStory() {
+        return shortStory;
+    }
+
+    public void setShortStory(String shortStory) {
+        this.shortStory = shortStory;
+    }
+
+    public int getKinogoPage() {
+        return kinogoPage;
+    }
+
+    public void setKinogoPage(int kinogoPage) {
+        this.kinogoPage = kinogoPage;
     }
 }

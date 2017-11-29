@@ -61,4 +61,9 @@ public class GenreDTO implements Serializable {
     public int hashCode() {
         return genreName != null ? genreName.hashCode() : 0;
     }
+
+    @Override
+    public String toString() {
+        return genreName;
+    }
 }

@@ -14,7 +14,8 @@ public enum View {
     USER("user"),
     FILM("film"),
     GENRE("genre"),
-    COUNTRY("country");
+    COUNTRY("country"),
+    SEARCH_RESULT("search_result");
 
     private String name;
     private String fullName;

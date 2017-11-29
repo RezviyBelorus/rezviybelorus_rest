@@ -61,4 +61,9 @@ public class CountryDTO implements Serializable {
     public int hashCode() {
         return countryName != null ? countryName.hashCode() : 0;
     }
+
+    @Override
+    public String toString() {
+        return countryName;
+    }
 }

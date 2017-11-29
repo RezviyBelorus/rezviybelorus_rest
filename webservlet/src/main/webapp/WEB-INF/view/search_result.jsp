@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/resources/css/bootstrap.css"/>
     <link rel="stylesheet" href="/resources/css/kinoviewstyles.css"/>
 
-    <title>kinoview - Main</title>
+    <title>kinoview - ${requestScope.genreName}</title>
 
 </head>
 <body>
@@ -21,30 +21,27 @@
             <button class="btn btn-secondary">Search</button>
         </form>
     </div>
-    <p>
-        <a href="http://localhost:8080/main"> <img class="logo" src="/resources/thumbnails/logo.png"></a>
-    </p>
-    <div class="user-panel">
-        <c:choose>
+    <a href="http://localhost:8080/main"> <img class="logo" src="/resources/thumbnails/logo.png"></a>
+    <c:choose>
         <c:when test="${sessionScope.login == null}">
+            <div class="user-panel">
+                <form action="http://localhost:8080/users/login" method="GET">
+                    <button class="btn btn-secondary">Login</button>
+                </form>
 
-            <form action="http://localhost:8080/users/login" method="GET">
-                <button class="btn btn-secondary">Login</button>
-            </form>
-
-            <form action="http://localhost:8080/users/signUp" method="GET">
-                <button class="btn btn-secondary">Sign up</button>
-            </form>
-
+                <form action="http://localhost:8080/users/signUp" method="GET">
+                    <button class="btn btn-secondary">Sign up</button>
+                </form>
+            </div>
         </c:when>
         <c:otherwise>
-        <h5> Привет, ${sessionScope.login}</h5>
-    </div>
-    <form action="http://localhost:8080/users/logout" method="POST">
-        <button class="btn btn-secondary">Logout</button>
-    </form>
-    </c:otherwise>
+            <h5> Привет, ${sessionScope.login}</h5>
+            <form action="http://localhost:8080/users/logout" method="POST">
+                <button class="btn btn-secondary">Logout</button>
+            </form>
+        </c:otherwise>
     </c:choose>
+
 
     <div class="thumbnails-container">
         <c:forEach items="${requestScope.thumbnails}" var="film">
@@ -142,14 +139,15 @@
             </c:forEach>
         </table>
 
-        <form class="row justify-content-center" action="http://localhost:8080/main" method="GET">
+        <form class="row justify-content-center" action="http://localhost:8080/films/search" method="GET">
             <nav aria-label="Page navigation example">
-                <ul class="pagination">
-                    <li class="page-item ${requestScope.previousPage}">
+                <input type="text" name="searchingParam" value="${requestScope.searchingParam}" hidden>
+                <ul class="pagination" ${requestScope.pagination}>
+                    <li class="page-item ${requestScope.previousPage}" ${requestScope.previousPageIsHidden}>
                         <button class="page-link" name="page" value="${requestScope.previousPageValue}">Previous
                         </button>
                     </li>
-                    <li class="page-item ${requestScope.firstPage}">
+                    <li class="page-item ${requestScope.firstPage}" ${requestScope.FirstPageIsHidden}>
                         <button class="page-link" name="page" value="${requestScope.firstPageValue}">First</button>
                     </li>
                     <li class="page-item" ${requestScope.pageOneisHidden}>
@@ -180,10 +178,10 @@
                         <button class="page-link" name="page"
                                 value="${requestScope.pageSixValue}">${requestScope.pageSixValue}</button>
                     </li>
-                    <li class="page-item ${requestScope.lastPage}">
+                    <li class="page-item ${requestScope.lastPage}" ${requestScope.lastPageIsHidden}>
                         <button class="page-link" name="page" value="${requestScope.lastPageValue}">Last</button>
                     </li>
-                    <li class="page-item ${requestScope.nextPage}">
+                    <li class="page-item ${requestScope.nextPage}" ${requestScope.nextPageIsHidden}>
                         <button class="page-link" name="page" value="${requestScope.nextPageValue}">Next</button>
                     </li>
                 </ul>

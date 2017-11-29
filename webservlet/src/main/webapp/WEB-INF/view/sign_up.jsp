@@ -21,7 +21,7 @@
     <div class="form">
         <form action="http://localhost:8080/users/signUp" method="POST">
             <h5>Kinoview - Register:</h5>
-            <div class="tableConteiner">
+            <div class="tableContainer">
                 <div class="tableRow">
                     <label for="fName">First name</label>
                     <input type="text" id="fName" name="fName" value="" placeholder="you first name" required>

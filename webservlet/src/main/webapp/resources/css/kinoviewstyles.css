@@ -53,7 +53,7 @@ th {
 }
 
 .thumbnails-container {
-    width: 855px;
+    width: 857px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -80,6 +80,7 @@ th {
 
 .user-panel {
     margin-top: 20px;
+    display: inline;
 
 }
 
@@ -97,4 +98,31 @@ th {
 .error {
     color: red;
     font-size: 130%;
+}
+
+.btn-link {
+    color: white;
+}
+
+.btn-link:hover {
+    color: dimgray;
+}
+
+.btn-link-describe {
+    @extend .btn-link;
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+}
+
+.btn-link-describe:hover {
+    color: dimgray;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.searchingForm {
+    float: right;
+    margin-top: 10px;
 }

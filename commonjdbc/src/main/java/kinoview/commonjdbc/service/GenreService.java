@@ -57,4 +57,14 @@ public class GenreService {
         allGenres.forEach(genre -> allGenresDTO.add(new GenreDTO(genre)));
         return allGenresDTO;
     }
+
+
+    public int countOfFilmsByGenre(int genreId) {
+        return genreDAO.countFilmsByGenre(genreId);
+    }
+
+    public GenreDTO findLimit(String genreName, int offset, int limit) {
+        Genre genre = genreDAO.findLimit(genreName, offset, limit);
+        return new GenreDTO(genre);
+    }
 }
